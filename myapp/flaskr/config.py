@@ -1,5 +1,5 @@
 __author__ = 'max'
-
+#i hate you
 import os
 
 basedir = '/var/www/myapp/flaskr/'
