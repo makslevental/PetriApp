@@ -20,80 +20,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/nonces/52af1016-https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-4dwGJeOYgReOxCf_v2wuqsHtbok" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/nonces/52af117c-https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-YhDFUKWgKxHpoThJf0HpubbqO_8" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/nonces/52af3371-https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-0GGVi6oukffxNm2BSGhaaltlysk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/img/aol.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/img/flickr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/img/google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/img/myopenid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/img/white.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/img/yahoo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_repository/versions/001_migration.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_repository/versions/002_migration.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_repository/versions/003_migration.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_repository/versions/004_migration.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_repository/versions/005_migration.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_repository/versions/006_migration.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_repository/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_repository/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_repository/versions/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/css/bootstrap.min.back1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_create.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_downgrade.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_migrate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_upgrade.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/decorators.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/emails.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/flash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/.idea/flaskr.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/follower_email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/follower_email.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/home.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/associations/https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-dn0gPlA6McwmX261BS2reKAhWn0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_repository/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/db_repository/migrate.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/js/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/momentjs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/run.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/wsgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/templates/base.html" afterPath="$PROJECT_DIR$/myapp/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/flaskr/run.py" afterPath="$PROJECT_DIR$/myapp/flaskr/run.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/flaskr/app/views.py" afterPath="$PROJECT_DIR$/myapp/flaskr/app/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/www.iml" afterPath="$PROJECT_DIR$/.idea/www.iml" />
     </list>
     <ignored path="www.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -152,11 +80,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.3313253" vertical-offset="490" max-vertical-offset="3270">
+            <state line="40" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="3270">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myapp/flaskr/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="38" selection-start="994" selection-end="994" vertical-scroll-proportion="0.19109462" vertical-offset="257" max-vertical-offset="2670">
+              <folding>
+                <element signature="e#19#99#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,7 +155,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/myapp/flaskr/run.py" />
-        <option value="$PROJECT_DIR$/myapp/flaskr/app/views.py" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/404.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/500.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/index.html" />
@@ -231,6 +169,7 @@
         <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/models.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
+        <option value="$PROJECT_DIR$/myapp/flaskr/app/views.py" />
       </list>
     </option>
   </component>
@@ -295,47 +234,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mysecondapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
+              <option name="myItemId" value="myapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mysecondapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="petri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mysecondapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="petri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -645,7 +548,15 @@
       <created>1387226713347</created>
       <updated>1387226713347</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mysecondapp">
+      <created>1387322078758</created>
+      <updated>1387322078758</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fuck up">
+      <created>1387322497732</created>
+      <updated>1387322497732</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -672,12 +583,13 @@
     <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27857935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3277027" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16261399" sideWeight="0.6722973" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16319019" sideWeight="0.7081021" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2925532" sideWeight="0.6722973" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1762918" sideWeight="0.6722973" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -687,7 +599,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2918979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -706,7 +617,8 @@
     <MESSAGE value="errant import" />
     <MESSAGE value="title change and os.path file&#10;" />
     <MESSAGE value="mysecondapp" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysecondapp" />
+    <MESSAGE value="fuck up" />
+    <option name="LAST_COMMIT_MESSAGE" value="fuck up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -761,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/flaskr/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="771" selection-end="771" vertical-scroll-proportion="0.26916802" vertical-offset="0" max-vertical-offset="2565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="71" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="735">
@@ -811,8 +716,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.3313253" vertical-offset="490" max-vertical-offset="3270">
+        <state line="40" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="3270">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/flaskr/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="38" selection-start="994" selection-end="994" vertical-scroll-proportion="0.19109462" vertical-offset="257" max-vertical-offset="2670">
+          <folding>
+            <element signature="e#19#99#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
