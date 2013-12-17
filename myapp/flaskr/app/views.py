@@ -22,7 +22,7 @@ def home(page = 1):
         return redirect(url_for('home'))
 
     posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
-    return render_template('home.html',
+    return render_template('index.html',
                            title='Home',
                            form=form,
                            posts=posts)
