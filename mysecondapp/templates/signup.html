@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="well">
+    <form class="form-group" action="{{ url_for('signup') }}" method=post>
+        {% for message in form.firstname.errors %}
+        <div class="flash">{{ message }}</div>
+        {% endfor %}
+
+        {% for message in form.lastname.errors %}
+        <div class="flash">{{ message }}</div>
+        {% endfor %}
+
+        {% for message in form.email.errors %}
+        <div class="flash">{{ message }}</div>
+        {% endfor %}
+
+        {% for message in form.phonenumber.errors %}
+        <div class="flash">{{ message }}</div>
+        {% endfor %}
+
+        <form action="{{ url_for('signup') }}" method=post>
+            {{ form.hidden_tag() }}
+
+            {{ form.firstname.label }}
+            {{ form.firstname }}
+
+            {{ form.lastname.label }}
+            {{ form.lastname }}
+
+            {{ form.email.label }}
+            {{ form.email }}
+
+            {{ form.phonenumber.label }}
+            {{ form.phonenumber }}
+
+            {{ form.password.label }}
+            {{ form.password }}
+
+            {{ form.submit }}
+        </form>
+    </form>
+</div>
+<p><a href="{{ url_for('home') }}">Back</a></p>
+{% endblock %}

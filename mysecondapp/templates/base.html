@@ -22,12 +22,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="/">microblog</a>
+            <a class="brand" href="/">Petri</a>
             <ul class="nav">
-                <li><a href="{{ url_for('index') }}">Home</a></li>
                 {% if g.user.is_authenticated() %}
-                    <li><a href="{{ url_for('user', nickname = g.user.nickname) }}">Your Profile</a></li>
+                    <li><a href="{{ url_for('home') }}">Home</a></li>
+                    <li><a href="{{ url_for('addnumber') }}">Add Number</a></li>
                     <li><a href="{{ url_for('logout') }}">Logout</a></li>
+                {% else %}
+                    <li><a href="{{ url_for('login') }}">Sign in</a></li>
                 {% endif %}
             </ul>
         </div>

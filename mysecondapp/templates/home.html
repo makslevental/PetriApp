@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hi, {{ g.user.firstname }}!</h1>
+    {% include 'flash.html' %}
+    <div class="well">
+        <br>
+        {{ info }}
+        <br>
+        {{ remember }}
+        <br>
+        <br>
+        {% for number in phonenumbers.items %}
+        <p>
+            {{ number }}
+        </p>
+        {% endfor %}
+
+    </div>
+{% if phonenumbers.has_prev %}<a href="{{ url_for('home', page = phonenumbers.prev_num) }}"><< Newer
+    posts</a>{% else %}<<
+Newer posts{% endif %} |
+{% if phonenumbers.has_next %}<a href="{{ url_for('home', page = phonenumbers.next_num) }}">Older posts
+    >></a>{% else %}Older
+posts >>{% endif %}
+{% endblock %}

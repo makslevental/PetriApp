@@ -12,17 +12,17 @@ from emails import follower_notification
 @app.route('/index', methods=['GET', 'POST'])
 @app.route('/index/<int:page>', methods=['GET', 'POST'])
 @login_required
-def index(page = 1):
+def home(page = 1):
     form = PostForm()
     if form.validate_on_submit():
         post = Post(body=form.post.data, timestamp=datetime.utcnow(), author=g.user)
         db.session.add(post)
         db.session.commit()
         flash('Your post is now live!')
-        return redirect(url_for('index'))
+        return redirect(url_for('home'))
 
     posts = g.user.followed_posts().paginate(page, POSTS_PER_PAGE, False)
-    return render_template('index.html',
+    return render_template('home.html',
                            title='Home',
                            form=form,
                            posts=posts)
@@ -36,7 +36,7 @@ def load_user(id):
 @oid.loginhandler
 def login():
     if g.user is not None and g.user.is_authenticated():
-        return redirect(url_for('index'))
+        return redirect(url_for('home'))
     form = LoginForm()
     if form.validate_on_submit():
         session['remember_me'] = form.remember_me.data
@@ -69,7 +69,7 @@ def after_login(resp):
         remember_me = session['remember_me']
         session.pop('remember_me', None)
     login_user(user, remember=remember_me)
-    return redirect(request.args.get('next') or url_for('index'))
+    return redirect(request.args.get('next') or url_for('home'))
 
 
 @app.route('/follow/<nickname>')
@@ -78,7 +78,7 @@ def follow(nickname):
     user = User.query.filter_by(nickname=nickname).first()
     if user == None:
         flash('User ' + nickname + ' not found.')
-        return redirect(url_for('index'))
+        return redirect(url_for('home'))
     if user == g.user:
         flash('You can\'t follow yourself!')
         return redirect(url_for('user', nickname=nickname))
@@ -98,7 +98,7 @@ def unfollow(nickname):
     user = User.query.filter_by(nickname=nickname).first()
     if user == None:
         flash('User ' + nickname + ' not found.')
-        return redirect(url_for('index'))
+        return redirect(url_for('home'))
     # if user == g.user:
     #     flash('You can\'t unfollow yourself!')
     #     return redirect(url_for('user', nickname=nickname))
@@ -124,7 +124,7 @@ def before_request():
 @app.route('/logout')
 def logout():
     logout_user()
-    return redirect(url_for('index'))
+    return redirect(url_for('home'))
 
 
 @app.route('/user/<nickname>')
@@ -134,7 +134,7 @@ def user(nickname, page=1):
     user = User.query.filter_by(nickname=nickname).first()
     if user == None:
         flash('User ' + nickname + ' not found.')
-        return redirect(url_for('index'))
+        return redirect(url_for('home'))
     posts = user.posts.paginate(page, POSTS_PER_PAGE, False)
     return render_template('user.html',
                            user=user,
