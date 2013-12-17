@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Don't be lost even without your phone</h1>
+<div class="well">
+    <form class="form-horizontal" action="{{ url_for('signup') }}">
+        <div class="control-group">
+            <div class="controls">
+                <input class="btn btn-primary" type="submit" value="Sign up!">
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
