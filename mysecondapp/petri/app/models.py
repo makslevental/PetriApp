@@ -14,7 +14,6 @@ class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     firstname = db.Column(db.String(64))
     lastname = db.Column(db.String(64))
-    friends = db.Column(db.String(1))
     email = db.Column(db.String(120), unique=True)
     phonenumber = db.Column(db.String(10), unique=True)
     pwdhash = db.Column(db.String(54))
