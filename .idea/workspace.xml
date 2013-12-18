@@ -76,10 +76,9 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="7" selection-start="2698" selection-end="2698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3750">
+            <state line="78" column="7" selection-start="2698" selection-end="2698" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="3750">
               <folding>
                 <element signature="e#20#100#0" expanded="true" />
-                <marker date="1387335547503" expanded="true" signature="542:720" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -100,7 +99,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="41" selection-start="1050" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="840">
+            <state line="30" column="43" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -143,7 +142,7 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="36" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.71153843" vertical-offset="621" max-vertical-offset="1245">
+            <state line="16" column="35" selection-start="543" selection-end="543" vertical-scroll-proportion="0.27884614" vertical-offset="36" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -693,7 +692,11 @@
       <created>1387336475043</created>
       <updated>1387336475043</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="mysecondapp">
+      <created>1387337529098</created>
+      <updated>1387337529098</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -846,12 +849,27 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="2" selection-start="807" selection-end="807" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="7" selection-start="2698" selection-end="2698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3750">
+        <state line="78" column="7" selection-start="2698" selection-end="2698" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="3750">
           <folding>
             <element signature="e#20#100#0" expanded="true" />
-            <marker date="1387335547503" expanded="true" signature="542:720" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="43" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -863,25 +881,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="41" selection-start="1050" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="840">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="2" selection-start="807" selection-end="807" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="36" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.71153843" vertical-offset="621" max-vertical-offset="1245">
+        <state line="16" column="35" selection-start="543" selection-end="543" vertical-scroll-proportion="0.27884614" vertical-offset="36" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
