@@ -22,18 +22,21 @@ class TestCase(unittest.TestCase):
         db.drop_all()
 
     def test_avatar(self):
-        u = User(nickname='john', email='john@example.com')
+        u = User(firstname='john', lastname='john@example.com', email='john@example.com', phonenumber=, keycode=0,
+                 password=)
         avatar = u.avatar(128)
         expected = 'http://www.gravatar.com/avatar/d4c74594d841139328695756648b6bd6'
         assert avatar[0:len(expected)] == expected
 
     def test_make_unique_nickname(self):
-        u = User(nickname='john', email='john@example.com')
+        u = User(firstname='john', lastname='john@example.com', email='john@example.com', phonenumber=, keycode=0,
+                 password=)
         db.session.add(u)
         db.session.commit()
         nickname = User.make_unique_nickname('john')
         assert nickname != 'john'
-        u = User(nickname=nickname, email='susan@example.com')
+        u = User(firstname=nickname, lastname='susan@example.com', email='susan@example.com', phonenumber=, keycode=0,
+                 password=)
         db.session.add(u)
         db.session.commit()
         nickname2 = User.make_unique_nickname('john')
@@ -41,8 +44,10 @@ class TestCase(unittest.TestCase):
         assert nickname2 != nickname
 
     def test_follow(self):
-        u1 = User(nickname='john', email='john@example.com')
-        u2 = User(nickname='susan', email='susan@example.com')
+        u1 = User(firstname='john', lastname='john@example.com', email='john@example.com', phonenumber=, keycode=0,
+                  password=)
+        u2 = User(firstname='susan', lastname='susan@example.com', email='susan@example.com', phonenumber=, keycode=0,
+                  password=)
         db.session.add(u1)
         db.session.add(u2)
         db.session.commit()
@@ -66,10 +71,14 @@ class TestCase(unittest.TestCase):
 
     def test_follow_posts(self):
         # make four users
-        u1 = User(nickname='john', email='john@example.com')
-        u2 = User(nickname='susan', email='susan@example.com')
-        u3 = User(nickname='mary', email='mary@example.com')
-        u4 = User(nickname='david', email='david@example.com')
+        u1 = User(firstname='john', lastname='john@example.com', email='john@example.com', phonenumber=, keycode=0,
+                  password=)
+        u2 = User(firstname='susan', lastname='susan@example.com', email='susan@example.com', phonenumber=, keycode=0,
+                  password=)
+        u3 = User(firstname='mary', lastname='mary@example.com', email='mary@example.com', phonenumber=, keycode=0,
+                  password=)
+        u4 = User(firstname='david', lastname='david@example.com', email='david@example.com', phonenumber=, keycode=0,
+                  password=)
         db.session.add(u1)
         db.session.add(u2)
         db.session.add(u3)

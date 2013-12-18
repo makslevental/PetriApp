@@ -5,21 +5,8 @@
 
 <div class="well">
     <form class="form-group" action="{{ url_for('signup') }}" method=post>
-        {% for message in form.firstname.errors %}
-        <div class="flash">{{ message }}</div>
-        {% endfor %}
 
-        {% for message in form.lastname.errors %}
-        <div class="flash">{{ message }}</div>
-        {% endfor %}
-
-        {% for message in form.email.errors %}
-        <div class="flash">{{ message }}</div>
-        {% endfor %}
-
-        {% for message in form.phonenumber.errors %}
-        <div class="flash">{{ message }}</div>
-        {% endfor %}
+        {% include 'flash.html' %}
 
         <form action="{{ url_for('signup') }}" method=post>
             {{ form.hidden_tag() }}
@@ -35,6 +22,9 @@
 
             {{ form.phonenumber.label }}
             {{ form.phonenumber }}
+
+            {{ form.keycode.label }}
+            {{ form.keycode }}
 
             {{ form.password.label }}
             {{ form.password }}
