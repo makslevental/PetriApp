@@ -21,7 +21,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/nonces/52af117c-https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-YhDFUKWgKxHpoThJf0HpubbqO_8" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/nonces/52af3371-https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-0GGVi6oukffxNm2BSGhaaltlysk" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/associations/https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-dn0gPlA6McwmX261BS2reKAhWn0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/models.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="7" selection-start="2698" selection-end="2698" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="3750">
+            <state line="38" column="26" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.85924715" vertical-offset="45" max-vertical-offset="3765">
               <folding>
                 <element signature="e#20#100#0" expanded="true" />
               </folding>
@@ -139,10 +139,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="56" selection-start="710" selection-end="710" vertical-scroll-proportion="0.375" vertical-offset="21" max-vertical-offset="1245">
+            <state line="35" column="10" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
@@ -196,10 +196,10 @@
         <option value="$PROJECT_DIR$/myapp/flaskr/app/views.py" />
         <option value="$PROJECT_DIR$/twilio/run.py" />
         <option value="dbtable:/205a43a0/957fe669-adb9-493f-951f-16fba60a4ff4/..user" />
-        <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/models.py" />
+        <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
       </list>
     </option>
   </component>
@@ -700,7 +700,11 @@
       <created>1387339342403</created>
       <updated>1387339342403</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="db upgrade test 2">
+      <created>1387340023043</created>
+      <updated>1387340023043</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -767,7 +771,8 @@
     <MESSAGE value="session remember me" />
     <MESSAGE value="mysecondapp" />
     <MESSAGE value="db migrate test" />
-    <option name="LAST_COMMIT_MESSAGE" value="db migrate test" />
+    <MESSAGE value="db upgrade test 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="db upgrade test 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -861,15 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="7" selection-start="2698" selection-end="2698" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="3750">
-          <folding>
-            <element signature="e#20#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="43" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
@@ -888,8 +884,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="710" selection-end="710" vertical-scroll-proportion="0.375" vertical-offset="21" max-vertical-offset="1245">
+        <state line="35" column="10" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="1245">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="26" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.85924715" vertical-offset="45" max-vertical-offset="3765">
+          <folding>
+            <element signature="e#20#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
