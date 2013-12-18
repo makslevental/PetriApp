@@ -1,5 +1,4 @@
 from ubuntuone.storageprotocol import request
-
 __author__ = 'max'
 from flask import render_template, flash, redirect, session, url_for, request, g
 from flask.ext.login import login_user, logout_user, current_user, login_required
@@ -9,6 +8,36 @@ from models import User, ROLE_USER, ROLE_ADMIN, Phonenumbers
 from datetime import datetime
 from config import NUMBERS_PER_PAGE
 from emails import follower_notification
+import twilio.twiml
+
+
+@app.route('/twilio', methods=['GET', 'POST'])
+def twilio1():
+
+    resp = twilio.twiml.Response()
+    with resp.gather(numDigits=10, action="/handle-key", method="POST") as g:
+        g.say("Enter your phone number.")
+
+    return str(resp)
+
+
+@app.route("/handle-key", methods=['GET', 'POST'])
+def handle_key():
+    """Handle key press from a user."""
+    resp = twilio.twiml.Response()
+    # Get the digit pressed by the user
+    digit_pressed = request.values.get('Digits', None)
+    # user = User.query.filter_by(email=form.email.data.lower()).first()
+    user = User.query.filter_by(phonenumber=str(digit_pressed).lower()).first()
+    phonenumbers = user.phonenumbers.all()
+
+    for number in phonenumbers:
+        resp.say(str(number.firstname))
+        resp.say(str(number.lastname))
+        for n in number.number:
+            resp.say(str(n))
+    return str(resp)
+
 
 @app.route('/')
 def index():
@@ -44,7 +73,9 @@ def signup():
 @login_required
 def home(page = 1):
     info = str(g.user)
-    phonenumbers = g.user.phonenumbers.paginate(page, NUMBERS_PER_PAGE, False)
+    # phonenumbers = g.user.phonenumbers.paginate(page, NUMBERS_PER_PAGE, False)
+    phonenumbers = g.user.phonenumbers.all()
+    # return str(phonenumbers[1])
     return render_template('home.html',
                            info=info,
                            remember=session['remember_me'],

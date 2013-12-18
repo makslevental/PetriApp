@@ -21,6 +21,10 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/nonces/52af117c-https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-YhDFUKWgKxHpoThJf0HpubbqO_8" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/nonces/52af3371-https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-0GGVi6oukffxNm2BSGhaaltlysk" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/associations/https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-dn0gPlA6McwmX261BS2reKAhWn0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twilio/run.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/flaskr/tmp/associations/https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-Iin03n8MDdfC655WIlhmKGhNIic" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/home.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -33,8 +37,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/www$run.coverage" NAME="run Coverage Results" MODIFIED="1387299126784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/flaskr" />
-    <SUITE FILE_PATH="coverage/www$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1387318038449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysecondapp/petri" />
+    <SUITE FILE_PATH="coverage/www$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1387332811401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/twilio" />
+    <SUITE FILE_PATH="coverage/www$run.coverage" NAME="run Coverage Results" MODIFIED="1387327280877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/flaskr" />
+    <SUITE FILE_PATH="coverage/www$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1387333739674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysecondapp/petri" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -53,15 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="addnumber.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,31 +76,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="3270">
+            <state line="54" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.89689034" vertical-offset="262" max-vertical-offset="3735">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myapp/flaskr/app/views.py">
+      <file leaf-file-name="microblog.log" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecondapp/petri/tmp/microblog.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="38" selection-start="994" selection-end="994" vertical-scroll-proportion="0.19109462" vertical-offset="257" max-vertical-offset="2670">
+            <state line="49" column="0" selection-start="3456" selection-end="3456" vertical-scroll-proportion="0.0" vertical-offset="10232" max-vertical-offset="13050">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twilio/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="28" selection-start="86" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="930">
               <folding>
-                <element signature="e#19#99#0" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysecondapp/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="71" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="735">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -112,7 +111,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1275">
+            <state line="8" column="22" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
@@ -121,7 +120,7 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="12" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="495">
+            <state line="15" column="37" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -154,11 +153,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/myapp/flaskr/run.py" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/404.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/500.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/index.html" />
-        <option value="dbtable:/205a43a0/957fe669-adb9-493f-951f-16fba60a4ff4/..user" />
         <option value="dbtable:/205a43a0/957fe669-adb9-493f-951f-16fba60a4ff4/..phonenumbers" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/login.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/config.py" />
@@ -166,18 +163,19 @@
         <option value="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/base.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/models.py" />
-        <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
         <option value="$PROJECT_DIR$/myapp/flaskr/app/views.py" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
+        <option value="$PROJECT_DIR$/twilio/run.py" />
+        <option value="dbtable:/205a43a0/957fe669-adb9-493f-951f-16fba60a4ff4/..user" />
+        <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="27" />
-    <option name="width" value="1368" />
-    <option name="height" value="742" />
+    <option name="x" value="1365" />
+    <option name="width" value="1682" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -205,7 +203,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,11 +231,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="twilio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,7 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myapp" />
+              <option name="myItemId" value="mysecondapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,32 +259,77 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myapp" />
+              <option name="myItemId" value="mysecondapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flaskr" />
+              <option name="myItemId" value="petri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysecondapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysecondapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/extra/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -324,14 +362,33 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/bin/python2.7" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysecondapp/petri" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="www" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysecondapp/petri/run.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twilio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="www" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twilio/run.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -493,14 +550,16 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.run" />
       <item index="1" class="java.lang.String" itemvalue="Python.run (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.run (2)" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.run (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.run" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -556,7 +615,15 @@
       <created>1387322497732</created>
       <updated>1387322497732</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="mysecondapp">
+      <created>1387322557263</created>
+      <updated>1387322557263</updated>
+    </task>
+    <task id="LOCAL-00009" summary="home -&gt; index">
+      <created>1387322840783</created>
+      <updated>1387322840783</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -580,25 +647,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
+    <frame x="1365" y="0" width="1682" height="1051" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27857935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16261399" sideWeight="0.6722973" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19877301" sideWeight="0.75138736" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16319019" sideWeight="0.7081021" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1762918" sideWeight="0.6722973" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1797546" sideWeight="0.75138736" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2608213" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24861266" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2918979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -616,9 +683,10 @@
     <MESSAGE value="make debuggable" />
     <MESSAGE value="errant import" />
     <MESSAGE value="title change and os.path file&#10;" />
-    <MESSAGE value="mysecondapp" />
     <MESSAGE value="fuck up" />
-    <option name="LAST_COMMIT_MESSAGE" value="fuck up" />
+    <MESSAGE value="mysecondapp" />
+    <MESSAGE value="home -&gt; index" />
+    <option name="LAST_COMMIT_MESSAGE" value="home -&gt; index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -629,21 +697,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="613" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="44" selection-end="280" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="210" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="64" selection-end="1153" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="210" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/templates/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="613" />
@@ -659,25 +712,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="34" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="71" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="735">
-          <folding />
-        </state>
+        <state line="28" column="71" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="735" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/flaskr/app/models.py">
@@ -693,18 +730,64 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/205a43a0/957fe669-adb9-493f-951f-16fba60a4ff4/..phonenumbers">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/flaskr/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="9" selection-start="668" selection-end="668" vertical-scroll-proportion="0.20891365" vertical-offset="0" max-vertical-offset="2565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="34" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/tmp/microblog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="3456" selection-end="3456" vertical-scroll-proportion="0.0" vertical-offset="10232" max-vertical-offset="13050">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="495">
+        <state line="15" column="37" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="510">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twilio/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="28" selection-start="86" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="930">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/205a43a0/957fe669-adb9-493f-951f-16fba60a4ff4/..user">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
@@ -716,17 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="3270">
+        <state line="54" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.89689034" vertical-offset="262" max-vertical-offset="3735">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/flaskr/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="38" selection-start="994" selection-end="994" vertical-scroll-proportion="0.19109462" vertical-offset="257" max-vertical-offset="2670">
-          <folding>
-            <element signature="e#19#99#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

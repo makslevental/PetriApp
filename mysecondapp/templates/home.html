@@ -12,7 +12,8 @@
         {{ remember }}
         <br>
         <br>
-        {% for number in phonenumbers.items %}
+        <!-- append .items to phonenumber does weird things -->
+        {% for number in phonenumbers %}
         <p>
             {{ number }}
         </p>
