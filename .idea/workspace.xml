@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/home.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f1184eda-f8c7-483e-8858-6ecd650fd272" name="garbage" comment="">
@@ -75,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="9" selection-start="489" selection-end="489" vertical-scroll-proportion="0.16167665" vertical-offset="45" max-vertical-offset="3780">
+            <state line="39" column="7" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3780">
               <folding>
                 <element signature="e#20#100#0" expanded="true" />
               </folding>
@@ -150,10 +150,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="2" selection-start="807" selection-end="807" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="525">
+            <state line="2" column="17" selection-start="61" selection-end="61" vertical-scroll-proportion="0.03797468" vertical-offset="0" max-vertical-offset="790">
               <folding />
             </state>
           </provider>
@@ -199,9 +199,9 @@
         <option value="$PROJECT_DIR$/twilio/run.py" />
         <option value="dbtable:/205a43a0/957fe669-adb9-493f-951f-16fba60a4ff4/..user" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/models.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
       </list>
     </option>
   </component>
@@ -715,7 +715,11 @@
       <created>1387340540275</created>
       <updated>1387340540275</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="git test">
+      <created>1387370966507</created>
+      <updated>1387370966507</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -748,7 +752,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19877301" sideWeight="0.72142065" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16319019" sideWeight="0.7081021" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1797546" sideWeight="0.72142065" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1797546" sideWeight="0.72142065" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -784,7 +788,8 @@
     <MESSAGE value="db upgrade test 2" />
     <MESSAGE value="mysecondapp" />
     <MESSAGE value="say good bye!" />
-    <option name="LAST_COMMIT_MESSAGE" value="say good bye!" />
+    <MESSAGE value="git test" />
+    <option name="LAST_COMMIT_MESSAGE" value="git test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -862,13 +867,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="2" selection-start="807" selection-end="807" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="43" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
@@ -903,10 +901,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="489" selection-end="489" vertical-scroll-proportion="0.16167665" vertical-offset="45" max-vertical-offset="3780">
+        <state line="39" column="7" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3780">
           <folding>
             <element signature="e#20#100#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="61" selection-end="61" vertical-scroll-proportion="0.03797468" vertical-offset="0" max-vertical-offset="790">
+          <folding />
         </state>
       </provider>
     </entry>
