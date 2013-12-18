@@ -21,7 +21,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/nonces/52af117c-https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-YhDFUKWgKxHpoThJf0HpubbqO_8" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/nonces/52af3371-https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-0GGVi6oukffxNm2BSGhaaltlysk" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/associations/https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-dn0gPlA6McwmX261BS2reKAhWn0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/home.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="www.iws" />
@@ -73,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="41" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.3927987" vertical-offset="720" max-vertical-offset="3750">
+            <state line="78" column="7" selection-start="2698" selection-end="2698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3750">
               <folding>
                 <element signature="e#20#100#0" expanded="true" />
               </folding>
@@ -99,7 +100,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+            <state line="42" column="41" selection-start="1050" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="840">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -148,10 +149,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="7" selection-start="777" selection-end="777" vertical-scroll-proportion="-7.2413793" vertical-offset="0" max-vertical-offset="510">
+            <state line="8" column="17" selection-start="203" selection-end="203" vertical-scroll-proportion="0.21201414" vertical-offset="0" max-vertical-offset="566">
               <folding />
             </state>
           </provider>
@@ -184,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mysecondapp/templates/404.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/500.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/index.html" />
         <option value="dbtable:/205a43a0/957fe669-adb9-493f-951f-16fba60a4ff4/..phonenumbers" />
@@ -196,10 +196,11 @@
         <option value="$PROJECT_DIR$/mysecondapp/templates/base.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/models.py" />
         <option value="$PROJECT_DIR$/myapp/flaskr/app/views.py" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
         <option value="$PROJECT_DIR$/twilio/run.py" />
         <option value="dbtable:/205a43a0/957fe669-adb9-493f-951f-16fba60a4ff4/..user" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
+        <option value="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
       </list>
     </option>
   </component>
@@ -684,7 +685,11 @@
       <created>1387335257432</created>
       <updated>1387335257432</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="session remember me">
+      <created>1387335562847</created>
+      <updated>1387335562847</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -749,7 +754,8 @@
     <MESSAGE value="twilio" />
     <MESSAGE value="mysecondapp" />
     <MESSAGE value="remember error" />
-    <option name="LAST_COMMIT_MESSAGE" value="remember error" />
+    <MESSAGE value="session remember me" />
+    <option name="LAST_COMMIT_MESSAGE" value="session remember me" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -843,11 +849,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+        <state line="78" column="7" selection-start="2698" selection-end="2698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3750">
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#20#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -859,19 +865,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="777" selection-end="777" vertical-scroll-proportion="-7.2413793" vertical-offset="0" max-vertical-offset="510">
-          <folding />
+        <state line="42" column="41" selection-start="1050" selection-end="1417" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="840">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="41" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.3927987" vertical-offset="720" max-vertical-offset="3750">
-          <folding>
-            <element signature="e#20#100#0" expanded="true" />
-          </folding>
+        <state line="8" column="17" selection-start="203" selection-end="203" vertical-scroll-proportion="0.21201414" vertical-offset="0" max-vertical-offset="566">
+          <folding />
         </state>
       </provider>
     </entry>
