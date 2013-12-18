@@ -76,7 +76,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="37" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.7855974" vertical-offset="705" max-vertical-offset="3720">
+            <state line="64" column="41" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.3927987" vertical-offset="720" max-vertical-offset="3750">
               <folding>
                 <element signature="e#20#100#0" expanded="true" />
               </folding>
@@ -151,7 +151,7 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="37" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="510">
+            <state line="28" column="7" selection-start="777" selection-end="777" vertical-scroll-proportion="-7.2413793" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -263,6 +263,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="twilio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysecondapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -662,7 +680,11 @@
       <created>1387334372983</created>
       <updated>1387334372983</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="remember error">
+      <created>1387335257432</created>
+      <updated>1387335257432</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -726,7 +748,8 @@
     <MESSAGE value="home -&gt; index" />
     <MESSAGE value="twilio" />
     <MESSAGE value="mysecondapp" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysecondapp" />
+    <MESSAGE value="remember error" />
+    <option name="LAST_COMMIT_MESSAGE" value="remember error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,13 +817,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="37" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twilio/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="28" selection-start="86" selection-end="1571" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="930">
@@ -843,9 +859,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="7" selection-start="777" selection-end="777" vertical-scroll-proportion="-7.2413793" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="37" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.7855974" vertical-offset="705" max-vertical-offset="3720">
+        <state line="64" column="41" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.3927987" vertical-offset="720" max-vertical-offset="3750">
           <folding>
             <element signature="e#20#100#0" expanded="true" />
           </folding>
