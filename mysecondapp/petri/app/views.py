@@ -78,7 +78,6 @@ def home(page = 1):
     # return str(phonenumbers[1])
     return render_template('home.html',
                            info=info,
-                           remember=session['remember_me'],
                            phonenumbers=phonenumbers)
 
 @lm.user_loader
