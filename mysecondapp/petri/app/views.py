@@ -62,6 +62,7 @@ def signup():
             db.session.add(newuser)
             db.session.commit()
             session['email'] = newuser.email
+            session['remember_me'] = True
             login_user(newuser)
             return redirect(url_for('home'))
     elif request.method == 'GET':
@@ -78,6 +79,7 @@ def home(page = 1):
     # return str(phonenumbers[1])
     return render_template('home.html',
                            info=info,
+                           remember=session['remember_me'],
                            phonenumbers=phonenumbers)
 
 @lm.user_loader
