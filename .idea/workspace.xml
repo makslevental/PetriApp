@@ -142,7 +142,7 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="35" selection-start="543" selection-end="543" vertical-scroll-proportion="0.27884614" vertical-offset="36" max-vertical-offset="1260">
+            <state line="19" column="56" selection-start="710" selection-end="710" vertical-scroll-proportion="0.375" vertical-offset="21" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
@@ -696,7 +696,11 @@
       <created>1387337529098</created>
       <updated>1387337529098</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="db migrate test">
+      <created>1387339342403</created>
+      <updated>1387339342403</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -762,7 +766,8 @@
     <MESSAGE value="remember error" />
     <MESSAGE value="session remember me" />
     <MESSAGE value="mysecondapp" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysecondapp" />
+    <MESSAGE value="db migrate test" />
+    <option name="LAST_COMMIT_MESSAGE" value="db migrate test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -883,7 +888,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="543" selection-end="543" vertical-scroll-proportion="0.27884614" vertical-offset="36" max-vertical-offset="1260">
+        <state line="19" column="56" selection-start="710" selection-end="710" vertical-scroll-proportion="0.375" vertical-offset="21" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
