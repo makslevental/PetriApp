@@ -36,6 +36,7 @@ def handle_key():
         resp.say(str(number.lastname))
         for n in number.number:
             resp.say(str(n))
+        resp.say("Goodbye!")
     return str(resp)
 
 
