@@ -71,7 +71,7 @@ class Phonenumbers(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     firstname = db.Column(db.String(64))
     lastname = db.Column(db.String(64))
-    number = db.Column(db.String(10), unique=True)
+    number = db.Column(db.String(10))
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 
     def __repr__(self):
