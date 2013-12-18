@@ -32,6 +32,8 @@ class SignupForm(Form):
     email = TextField("Email", [validators.Required("Please enter your email address."),
                                 validators.Email("Please a valid email address.")])
     phonenumber = TextField("Phone number", [validators.Required("Please enter a phone number.")])
+    keycode = PasswordField("Key Code", [validators.Required("Please enter a key code"),
+                                         validators.Length(min=4, max=4, message=("Key Code is incorrect length"))])
     password = PasswordField('Password', [validators.Required("Please enter a password.")])
     submit = SubmitField("Create account")
 
@@ -40,7 +42,6 @@ class SignupForm(Form):
 
     def validate(self):
         if not Form.validate(self):
-            self.email.errors.append("form didn't validate")
             return False
 
         user = User.query.filter_by(email=self.email.data.lower()).first()

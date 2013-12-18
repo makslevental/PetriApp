@@ -9,23 +9,54 @@
     <div class="well">
         <h1>Dial 954-302-7647</h1>
         <br>
-        {{ info }}
-        <br>
-        {{ remember }}
-        <br>
-        <br>
+        <h4>Your Phone numbers:</h4>
         <!-- append .items to phonenumber does weird things -->
-        {% for number in phonenumbers %}
+
         <p>
-            {{ number }}
+
+
+
+        <div style="width: 60%">
+            <div id="msg" class="alert hide"></div>
+            <table id="user" class="table table-bordered table-striped">
+                <tbody>
+                <tr>
+                    <td width="20%">First name</td>
+                    <td>Last Name</td>
+                    <td>Phone Number</td>
+                </tr>
+                {% for number in phonenumbers %}
+                <tr>
+                    <td><a href="#" class="myeditable" id="required_firstname" data-type="text" data-name="firstname"
+                           data-original-title="Enter First name">{{ number.firstname }}</a></td>
+                    <td><a href="#" class="myeditable" id="required_lastname" data-type="text" data-name="lastname"
+                           data-original-title="Enter Last name">{{ number.lastname }}</a></td>
+                    <td><a href="#" class="myeditable" id="required_phonenumber" data-type="text"
+                           data-name="phonenumber"
+                           data-original-title="Enter Phone number">{{ number.number }}</a></td>
+                    <td>
+                        <div>
+                            <!--<button id="save-btn" class="btn btn-primary">Save</button>-->
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+
+
         </p>
-        {% endfor %}
 
     </div>
 {% if phonenumbers.has_prev %}<a href="{{ url_for('home', page = phonenumbers.prev_num) }}"><< Newer
-    posts</a>{% else %}<<
-Newer posts{% endif %} |
-{% if phonenumbers.has_next %}<a href="{{ url_for('home', page = phonenumbers.next_num) }}">Older posts
+    Numbers</a>{% else %}<<
+Newer Numbers{% endif %} |
+{% if phonenumbers.has_next %}<a href="{{ url_for('home', page = phonenumbers.next_num) }}">Older Numbers
     >></a>{% else %}Older
-posts >>{% endif %}
+Numbers >>{% endif %}
 {% endblock %}

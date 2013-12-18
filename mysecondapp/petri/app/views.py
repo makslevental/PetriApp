@@ -9,37 +9,63 @@ from datetime import datetime
 from config import NUMBERS_PER_PAGE
 from emails import follower_notification
 import twilio.twiml
+import string
+# before database request!!!
+@app.before_request
+def before_request():
+    g.user = current_user
+    if g.user.is_authenticated():
+        g.user.last_seen = datetime.utcnow()
+        db.session.add(g.user)
+        db.session.commit()
 
-#ihateyou
 
 @app.route('/twilio', methods=['GET', 'POST'])
-def twilio1():
-
+@app.route('/twilio/<int:id>', methods=['POST'])
+def get_number(id=0):
     resp = twilio.twiml.Response()
-    with resp.gather(numDigits=10, action="/handle-key", method="POST") as g:
-        g.say("Enter your phone number.")
+    if request.method == 'GET':
+        with resp.gather(numDigits=10, action="/twilio", method="POST") as r:
+            r.say("Enter your phone number.")
+        return str(resp)
+    elif request.method == 'POST':
+        if id == 0:
+            digit_pressed = request.values.get('Digits', None)
+            user = User.query.filter_by(phonenumber=str(digit_pressed).lower()).first()
+            if user:
+                user_id = User.query.filter_by(phonenumber=str(digit_pressed).lower()).first().id
+                with resp.gather(numDigits=4, action="/twilio_key/"+str(user_id), method="POST") as r:
+                    r.say("Enter your 4 digit key code.")
+                return str(resp)
+            else:
+                resp.say("That phone number doesn't exist. Please try again.")
+                resp.redirect('/twilio', method='GET')
+                return str(resp)
+        else:
+            with resp.gather(numDigits=4, action="/twilio_key/" + str(id), method="POST") as r:
+                r.say("Enter your 4 digit key code.")
+            return str(resp)
 
-    return str(resp)
-
-
-@app.route("/handle-key", methods=['GET', 'POST'])
-def handle_key():
+@app.route("/twilio_key/<int:id>", methods=['GET', 'POST'])
+def handle_telnumber(id):
     """Handle key press from a user."""
     resp = twilio.twiml.Response()
     # Get the digit pressed by the user
     digit_pressed = request.values.get('Digits', None)
-    # user = User.query.filter_by(email=form.email.data.lower()).first()
-    user = User.query.filter_by(phonenumber=str(digit_pressed).lower()).first()
-    phonenumbers = user.phonenumbers.all()
-
-    for number in phonenumbers:
-        resp.say(str(number.firstname))
-        resp.say(str(number.lastname))
-        for n in number.number:
-            resp.say(str(n))
-    resp.say("Good bye!")
+    user = User.query.get(id)
+    if user and user.check_keycodehash(digit_pressed):
+        phonenumbers = user.phonenumbers.all()
+        for number in phonenumbers:
+            resp.say(str(number.firstname))
+            resp.say(str(number.lastname))
+            for n in number.number:
+                resp.say(str(n))
+        resp.say("Good bye!")
+        return str(resp)
+    else:
+        resp.say("Incorrect key code. Please try again.")
+        resp.redirect("/twilio/"+str(id), method='POST')
     return str(resp)
-
 
 @app.route('/')
 def index():
@@ -56,10 +82,11 @@ def signup():
             # errors are automatically stored in the form and template has access to them
             return render_template('signup.html', form=form)
         else:
-            newuser = User(form.firstname.data,
-                           form.lastname.data,
-                           form.email.data,
-                           form.phonenumber.data,
+
+            all = string.maketrans('','')
+            nodigs = all.translate(all, string.digits)
+            cleanPhoneNumber = str(form.phonenumber.data).translate(all, nodigs)
+            newuser = User(form.firstname.data, form.lastname.data, form.email.data, cleanPhoneNumber, form.keycode.data,
                            form.password.data)
             db.session.add(newuser)
             db.session.commit()
@@ -186,33 +213,12 @@ def addnumber():
 #     return redirect(url_for('user', nickname=nickname))
 
 
-@app.before_request
-def before_request():
-    g.user = current_user
-    if g.user.is_authenticated():
-        g.user.last_seen = datetime.utcnow()
-        db.session.add(g.user)
-        db.session.commit()
 
 
 @app.route('/logout')
 def logout():
     logout_user()
     return redirect(url_for('index'))
-
-#
-# @app.route('/user/<nickname>')
-# @app.route('/user/<nickname>/<int:page>')
-# @login_required
-# def user(nickname, page=1):
-#     user = User.query.filter_by(nickname=nickname).first()
-#     if user == None:
-#         flash('User ' + nickname + ' not found.')
-#         return redirect(url_for('home'))
-#     posts = user.posts.paginate(page, POSTS_PER_PAGE, False)
-#     return render_template('user.html',
-#                            user=user,
-#                            posts=posts)
 
 
 @app.route('/edit', methods=['GET', 'POST'])
