@@ -21,9 +21,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/nonces/52af117c-https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-YhDFUKWgKxHpoThJf0HpubbqO_8" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/nonces/52af3371-https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-0GGVi6oukffxNm2BSGhaaltlysk" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/petri/tmp/associations/https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-dn0gPlA6McwmX261BS2reKAhWn0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/twilio/run.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp/flaskr/tmp/associations/https-www.google.com-apdYYPrtQGUIj7Vp7jMTz.Kn74A-Iin03n8MDdfC655WIlhmKGhNIic" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/home.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -79,8 +76,10 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.89689034" vertical-offset="262" max-vertical-offset="3735">
-              <folding />
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3735">
+              <folding>
+                <element signature="e#20#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -623,7 +622,11 @@
       <created>1387322840783</created>
       <updated>1387322840783</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="twilio">
+      <created>1387333935322</created>
+      <updated>1387333935322</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -650,6 +653,7 @@
     <frame x="1365" y="0" width="1682" height="1051" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27857935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -665,7 +669,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2918979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -686,7 +689,8 @@
     <MESSAGE value="fuck up" />
     <MESSAGE value="mysecondapp" />
     <MESSAGE value="home -&gt; index" />
-    <option name="LAST_COMMIT_MESSAGE" value="home -&gt; index" />
+    <MESSAGE value="twilio" />
+    <option name="LAST_COMMIT_MESSAGE" value="twilio" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -799,8 +803,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="0.89689034" vertical-offset="262" max-vertical-offset="3735">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3735">
+          <folding>
+            <element signature="e#20#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
