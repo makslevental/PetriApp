@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/home.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/index.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -79,7 +79,7 @@
       <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="20" selection-start="3543" selection-end="3543" vertical-scroll-proportion="0.0" vertical-offset="1086" max-vertical-offset="1740">
+            <state line="105" column="36" selection-start="4654" selection-end="4654" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="1740">
               <folding>
                 <element signature="e#20#50#0" expanded="true" />
               </folding>
@@ -108,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="26" selection-start="970" selection-end="970" vertical-scroll-proportion="0.46793762" vertical-offset="180" max-vertical-offset="3135">
+            <state line="30" column="26" selection-start="970" selection-end="970" vertical-scroll-proportion="-7.9411764" vertical-offset="180" max-vertical-offset="3135">
               <folding>
                 <element signature="e#20#100#0" expanded="true" />
               </folding>
@@ -141,10 +141,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="90" selection-end="90" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="330">
+            <state line="10" column="78" selection-start="289" selection-end="351" vertical-scroll-proportion="0.25" vertical-offset="0" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -189,9 +189,9 @@
         <option value="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/login.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
         <option value="dbtable:/205a43a0/957fe669-adb9-493f-951f-16fba60a4ff4/..phonenumbers" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
+        <option value="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/index.html" />
       </list>
     </option>
@@ -792,7 +792,11 @@
       <created>1387413659298</created>
       <updated>1387413659298</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="formatting on index&#10;">
+      <created>1387413997322</created>
+      <updated>1387413997322</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -864,7 +868,8 @@
     <MESSAGE value="say good bye!" />
     <MESSAGE value="git test" />
     <MESSAGE value="git test 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="git test 2" />
+    <MESSAGE value="formatting on index&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatting on index&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -950,22 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="20" selection-start="3543" selection-end="3543" vertical-scroll-proportion="0.0" vertical-offset="1086" max-vertical-offset="1740">
-          <folding>
-            <element signature="e#20#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/205a43a0/957fe669-adb9-493f-951f-16fba60a4ff4/..phonenumbers">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
@@ -985,19 +974,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="90" selection-end="90" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="330">
+        <state line="30" column="26" selection-start="970" selection-end="970" vertical-scroll-proportion="-7.9411764" vertical-offset="180" max-vertical-offset="3135">
+          <folding>
+            <element signature="e#20#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="26" selection-start="970" selection-end="970" vertical-scroll-proportion="0.46793762" vertical-offset="180" max-vertical-offset="3135">
+        <state line="105" column="36" selection-start="4654" selection-end="4654" vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="1740">
           <folding>
-            <element signature="e#20#100#0" expanded="true" />
+            <element signature="e#20#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="78" selection-start="289" selection-end="351" vertical-scroll-proportion="0.25" vertical-offset="0" max-vertical-offset="600">
+          <folding />
         </state>
       </provider>
     </entry>
