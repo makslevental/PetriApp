@@ -47,7 +47,7 @@ class SignupForm(Form):
     phonenumber = TextField("Phone number", [validators.Required("Please enter a phone number."),
                                              _number("Phone number must contain only numbers"),
                                              validators.Length(min=10, max=10, message=("Phone number must be 10 digits long"))])
-    keycode = PasswordField("Key Code", [validators.Required("Please enter a key code"),
+    keycode = PasswordField("4 digit Key Code for signing into the phone menu", [validators.Required("Please enter a key code"),
                                          _number("Key code must be a number"),
                                          validators.Length(min=4, max=4, message=("Key Code is incorrect length"))])
     password = PasswordField('Password', [validators.Required("Please enter a password.")])
