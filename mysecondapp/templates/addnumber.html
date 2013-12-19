@@ -4,17 +4,7 @@
 {% block content %}
 <div class="well">
 
-        {% for message in form.firstname.errors %}
-        <div class="flash">{{ message }}</div>
-        {% endfor %}
-
-        {% for message in form.lastname.errors %}
-        <div class="flash">{{ message }}</div>
-        {% endfor %}
-
-        {% for message in form.phonenumber.errors %}
-        <div class="flash">{{ message }}</div>
-        {% endfor %}
+    {% include 'flash.html' %}
 
         <form class="form-group" action="{{ url_for('addnumber') }}" method=post>
             {{ form.hidden_tag() }}
