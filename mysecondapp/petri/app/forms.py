@@ -2,7 +2,7 @@ __author__ = 'max'
 
 from flask.ext.wtf import Form
 from wtforms import TextField, BooleanField, TextAreaField, validators, PasswordField, SubmitField
-from wtforms.validators import Required, Length
+from wtforms.validators import Required, Length, ValidationError
 from models import User
 
 class LoginForm(Form):
@@ -26,13 +26,29 @@ class LoginForm(Form):
             self.email.errors.append("Invalid e-mail or password")
             return False
 
+# custom validator
+
+class _number(object):
+    def __init__(self, message=None):
+        if not message:
+            message = u'Field must be between %i and %i characters long and a number.' % (min, max)
+        self.message = message
+
+    def __call__(self, form, field):
+        l = str(field.data)
+        if not l.isdigit():
+            raise ValidationError(self.message)
+
 class SignupForm(Form):
     firstname = TextField("First name", [validators.Required("Please enter your first name.")])
     lastname = TextField("Last name", [validators.Required("Please enter your last name.")])
     email = TextField("Email", [validators.Required("Please enter your email address."),
                                 validators.Email("Please a valid email address.")])
-    phonenumber = TextField("Phone number", [validators.Required("Please enter a phone number.")])
+    phonenumber = TextField("Phone number", [validators.Required("Please enter a phone number."),
+                                             _number("Phone number must contain only numbers"),
+                                             validators.Length(min=10, max=10, message=("Phone number must be 10 digits long"))])
     keycode = PasswordField("Key Code", [validators.Required("Please enter a key code"),
+                                         _number("Key code must be a number"),
                                          validators.Length(min=4, max=4, message=("Key Code is incorrect length"))])
     password = PasswordField('Password', [validators.Required("Please enter a password.")])
     submit = SubmitField("Create account")
@@ -83,7 +99,10 @@ class PostForm(Form):
 class AddNumberForm(Form):
     firstname = TextField("First name", [validators.Required("Please enter your first name.")])
     lastname = TextField("Last name", [validators.Required("Please enter your last name.")])
-    phonenumber = TextField("Phone number", [validators.Required("Please enter a phone number.")])
+    phonenumber = TextField("Phone number", [validators.Required("Please enter a phone number."),
+                                             _number("Phone number must contain only numbers"),
+                                             validators.Length(min=10, max=10,
+                                                               message=("Phone number must be 10 digits long"))])
     submit = SubmitField("Sign In")
 
     def __init__(self, *args, **kwargs):

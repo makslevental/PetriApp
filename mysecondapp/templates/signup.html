@@ -4,9 +4,10 @@
 {% block content %}
 
 <div class="well">
+    {% include 'flash.html' %}
     <form class="form-group" action="{{ url_for('signup') }}" method=post>
 
-        {% include 'flash.html' %}
+
 
         <form action="{{ url_for('signup') }}" method=post>
             {{ form.hidden_tag() }}

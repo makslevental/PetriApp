@@ -10,6 +10,20 @@ from config import NUMBERS_PER_PAGE
 from emails import follower_notification
 import twilio.twiml
 import string
+
+all = string.maketrans('', '')
+nodigs = all.translate(all, string.digits)
+
+
+def flash_errors(form):
+    """Flashes form errors"""
+    for field, errors in form.errors.items():
+        for error in errors:
+            flash(u"Error in the %s field - %s" % (
+                getattr(form, field).label.text,
+                error
+            ), 'error')
+
 # before database request!!!
 @app.before_request
 def before_request():
@@ -80,11 +94,9 @@ def signup():
     if request.method == 'POST':
         if form.validate() == False:
             # errors are automatically stored in the form and template has access to them
+            flash_errors(form)
             return render_template('signup.html', form=form)
         else:
-
-            all = string.maketrans('','')
-            nodigs = all.translate(all, string.digits)
             cleanPhoneNumber = str(form.phonenumber.data).translate(all, nodigs)
             newuser = User(form.firstname.data, form.lastname.data, form.email.data, cleanPhoneNumber, form.keycode.data,
                            form.password.data)
@@ -128,6 +140,8 @@ def login():
         user = User.query.filter_by(email=form.email.data.lower()).first()
         login_user(user, remember=session['remember_me'] )
         return redirect(url_for('home'))
+    else:
+        flash_errors(form)
     return render_template('login.html',
                            title='Sign In',
                            form=form)
@@ -139,79 +153,16 @@ def addnumber():
     if request.method == 'GET':
         return render_template('addnumber.html', title='Add a phonenumber', form=form)
     if form.validate():
-        phonenumber = Phonenumbers(firstname=form.firstname.data, lastname=form.lastname.data, number=form.phonenumber.data, owner=g.user)
+        cleanPhoneNumber = str(form.phonenumber.data).translate(all, nodigs)
+        phonenumber = Phonenumbers(firstname=form.firstname.data, lastname=form.lastname.data, number=cleanPhoneNumber, owner=g.user)
         db.session.add(phonenumber)
         db.session.commit()
         flash('Your changes have been saved.')
         return redirect(url_for('home'))
+    else:
+        flash_errors(form)
     return render_template('addnumber.html',
-                           form=form)
-
-#
-# @oid.after_login
-# def after_login(resp):
-#     if resp.email is None or resp.email == "":
-#         flash('Invalid login. Please try again.')
-#         redirect(url_for('login'))
-#     user = User.query.filter_by(email=resp.email).first()
-#     if user is None:
-#         nickname = resp.nickname
-#         if nickname is None or nickname == "":
-#             nickname = resp.email.split('@')[0]
-#         nickname = User.make_unique_nickname(nickname)
-#         user = User(nickname=nickname, email=resp.email, role=ROLE_USER)
-#         db.session.add(user)
-#         db.session.commit()
-#         # make the user follow him/herself
-#         # db.session.add(user.follow(user))
-#         # db.session.commit()
-#     remember_me = False
-#     if 'remember_me' in session:
-#         remember_me = session['remember_me']
-#         session.pop('remember_me', None)
-#     login_user(user, remember=remember_me)
-#     return redirect(request.args.get('next') or url_for('home'))
-
-#
-# @app.route('/follow/<nickname>')
-# @login_required
-# def follow(nickname):
-#     user = User.query.filter_by(nickname=nickname).first()
-#     if user == None:
-#         flash('User ' + nickname + ' not found.')
-#         return redirect(url_for('home'))
-#     if user == g.user:
-#         flash('You can\'t follow yourself!')
-#         return redirect(url_for('user', nickname=nickname))
-#     u = g.user.follow(user)
-#     if u is None:
-#         flash('Cannot follow ' + nickname + '.')
-#         return redirect(url_for('user', nickname=nickname))
-#     db.session.add(u)
-#     db.session.commit()
-#     flash('You are now following ' + nickname + '!')
-#     follower_notification(user, g.user)
-#     return redirect(url_for('user', nickname=nickname))
-#
-#
-# @app.route('/unfollow/<nickname>')
-# def unfollow(nickname):
-#     user = User.query.filter_by(nickname=nickname).first()
-#     if user == None:
-#         flash('User ' + nickname + ' not found.')
-#         return redirect(url_for('home'))
-#     # if user == g.user:
-#     #     flash('You can\'t unfollow yourself!')
-#     #     return redirect(url_for('user', nickname=nickname))
-#     u = g.user.unfollow(user)
-#     if u is None:
-#         flash('Cannot unfollow ' + nickname + '.')
-#         return redirect(url_for('user', nickname=nickname))
-#     db.session.add(u)
-#     db.session.commit()
-#     flash('You have stopped following ' + nickname + '.')
-#     return redirect(url_for('user', nickname=nickname))
-
+                               form=form)
 
 
 
