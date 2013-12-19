@@ -9,7 +9,7 @@ class LoginForm(Form):
     email = TextField("Email", [validators.Required("Please enter your email address."),
                                 validators.Email("Please a valid email address.")])
     password = PasswordField('Password', [validators.Required("Please enter a password.")])
-    remember_me = BooleanField('remember_me', default=False)
+    remember_me = BooleanField('Remember me', default=False)
     submit = SubmitField("Sign In")
 
     def __init__(self, *args, **kwargs):
