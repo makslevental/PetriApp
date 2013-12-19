@@ -103,7 +103,7 @@ class AddNumberForm(Form):
                                              _number("Phone number must contain only numbers"),
                                              validators.Length(min=10, max=10,
                                                                message=("Phone number must be 10 digits long"))])
-    submit = SubmitField("Sign In")
+    submit = SubmitField("Add number")
 
     def __init__(self, *args, **kwargs):
         Form.__init__(self, *args, **kwargs)
