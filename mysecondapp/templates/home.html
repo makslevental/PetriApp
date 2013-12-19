@@ -2,6 +2,16 @@
 <!-- extend base layout -->
 <!-- git test -->
 {% extends "base.html" %}
+{% block leftnavbar %}
+<li id="brand"><a href="{{ url_for('index') }}">Petri</a></li>
+<li><a href="{{ url_for('about') }}">About</a></li>
+<li><a href="{{ url_for('contact') }}">Contact</a></li>
+{% endblock %}
+{% block rightnavbar %}
+<li class="active"><a href="#">Home</a></li>
+<li><a href="{{ url_for('addnumber') }}">Add number</a></li>
+{% endblock %}
+
 
 {% block content %}
     <h1>Hi, {{ g.user.firstname }}!</h1>

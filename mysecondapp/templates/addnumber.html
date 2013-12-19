@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
-
+{% block leftnavbar %}
+<li id="brand"><a href="{{ url_for('index') }}">Petri</a></li>
+<li><a href="{{ url_for('about') }}">About</a></li>
+<li><a href="{{ url_for('contact') }}">Contact</a></li>
+{% endblock %}
+{% block rightnavbar %}
+<li><a href="{{ url_for('home') }}">Home</a></li>
+<li class="active"><a href="#">Add number</a></li>
+{% endblock %}
 {% block content %}
-<div class="well">
+<div class="well" id="center">
 
     {% include 'flash.html' %}
 
-        <form class="form-group" action="{{ url_for('addnumber') }}" method=post>
+        <form role="form">
             {{ form.hidden_tag() }}
-
-            {{ form.firstname.label }}
-            {{ form.firstname }}
-
-            {{ form.lastname.label }}
-            {{ form.lastname }}
-
-            {{ form.phonenumber.label }}
-            {{ form.phonenumber }}
-            <br>
-            <input class="btn btn-primary" type="submit" value="Add Number">
+            <div class="form-group">
+                <label>First name</label>
+                <input type="text" class="form-control" name="firstname" placeholder="John">
+            </div>
+            <div class="form-group">
+                <label>Last name</label>
+                <input type="text" class="form-control" name="lastname" placeholder="Doe">
+            </div>
+            <div class="form-group">
+                <label>Phone number</label>
+                <input type="text" class="form-control" name="phonenumber" placeholder="9545556666">
+            </div>
+            <button type="submit" class="btn btn-default">Add</button>
         </form>
+
 
 </div>
 {% endblock %}

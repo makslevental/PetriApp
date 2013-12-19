@@ -278,6 +278,7 @@ a:hover {
 
 .span12 {
     width: 940px
+
 }
 
 .span11 {
@@ -5435,4 +5436,18 @@ a.label:hover, a.badge:hover {
 
 .affix {
     position: fixed
+}
+
+#banner {
+    /* Class for Banner */
+    position: fixed;
+    width: 940px;
+    height: 30px;
+    z-index: 100;
+    top: 0px;
+    padding: 0 0px; /* Required for utility links to be displayed properly */
+}
+
+#push {
+    margin-top:35px;
 }
