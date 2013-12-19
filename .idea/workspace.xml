@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="arranging buttons">
+    <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/signup.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -89,7 +89,7 @@
       <file leaf-file-name="signup.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/templates/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.65" vertical-offset="0" max-vertical-offset="645">
+            <state line="27" column="30" selection-start="642" selection-end="642" vertical-scroll-proportion="0.675" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -791,7 +791,11 @@
       <created>1387415168066</created>
       <updated>1387415168066</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="keycode label bug?">
+      <created>1387416080957</created>
+      <updated>1387416080957</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -866,7 +870,8 @@
     <MESSAGE value="formatting on index&#10;" />
     <MESSAGE value="button label&#10;" />
     <MESSAGE value="arranging buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="arranging buttons" />
+    <MESSAGE value="keycode label bug?" />
+    <option name="LAST_COMMIT_MESSAGE" value="keycode label bug?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -998,7 +1003,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="575" selection-end="575" vertical-scroll-proportion="0.65" vertical-offset="0" max-vertical-offset="645">
+        <state line="27" column="30" selection-start="642" selection-end="642" vertical-scroll-proportion="0.675" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
