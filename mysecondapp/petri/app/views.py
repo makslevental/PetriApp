@@ -83,8 +83,19 @@ def handle_telnumber(id):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    form = LoginForm()
+    return render_template('index.html', form=form)
 
+
+@app.route('/about')
+def about():
+    form = LoginForm()
+    return render_template('about.html', form=form)
+
+#TODO-contact form and login form collision
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():

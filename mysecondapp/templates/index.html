@@ -1,18 +1,34 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
 
-{% block content %}
+{% block leftnavbar %}
+<li class="active" id="brand"><a href="#">Petri</a></li>
+<li><a href="{{ url_for('about') }}">About</a></li>
+<li><a href="{{ url_for('contact') }}">Contact</a></li>
+{% endblock %}
+{% block rightnavbar %}
+<li><a href="{{ url_for('home') }}">Home</a></li>
+<li><a href="{{ url_for('addnumber') }}">Add number</a></li>
+{% endblock %}
 
-<div class="well">
-    <h2>Don't be lost even without your phone</h2>
-    <h3>Sign up to receive an audible phone number repository</h3>
-    <h3>you can reach from any phone</h3>
+{% block content %}
+<div class="jumbotron">
+    <h1>Don't be lost</h1>
+    <h2>even without your phone</h2>
+
+    <p class="lead">Sign up to receive an audible phone number repository you can reach from anywhere</p>
+
+    <p>
+
     <form class="form-horizontal" action="{{ url_for('signup') }}">
         <div class="control-group">
             <div class="controls">
-                <input class="btn btn-primary" type="submit" value="Sign up!">
+                <input class="btn btn-lg btn-success" type="submit" value="Sign up!">
             </div>
         </div>
     </form>
+    </p>
 </div>
+
+
 {% endblock %}

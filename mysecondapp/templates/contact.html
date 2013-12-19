@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<!-- extend base layout -->
 {% extends "base.html" %}
-
+{% block leftnavbar %}
+<li id="brand"><a href="{{ url_for('index') }}">Petri</a></li>
+<li><a href="{{ url_for('about') }}">About</a></li>
+<li class="active"><a href="#">Contact</a></li>
+{% endblock %}
+{% block rightnavbar %}
+<li><a href="{{ url_for('home') }}">Home</a></li>
+<li><a href="{{ url_for('addnumber') }}">Add number</a></li>
+{% endblock %}
 {% block content %}
-
-<div class="jumbotron">
-    <h1>Jumbotron heading</h1>
-
-    <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus
-        commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-    <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-</div>
 
 <div class="row marketing">
     <div class="col-lg-6">
@@ -44,4 +42,5 @@
         <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
     </div>
 </div>
+
 {% endblock %}
