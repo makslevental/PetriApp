@@ -9,7 +9,7 @@
     <div class="well">
         <h1>Dial 954-302-7647</h1>
         <br>
-        <h4>Your Phone numbers:</h4>
+        <h4>Your phone numbers:</h4>
         <!-- append .items to phonenumber does weird things -->
 
         <p>
@@ -34,11 +34,11 @@
                     <td><a href="#" class="myeditable" id="required_phonenumber" data-type="text"
                            data-name="phonenumber"
                            data-original-title="Enter Phone number">{{ number.number }}</a></td>
-                    <td>
-                        <div>
+                    <!--<td>-->
+                        <!--<div>-->
                             <!--<button id="save-btn" class="btn btn-primary">Save</button>-->
-                        </div>
-                    </td>
+                        <!--</div>-->
+                    <!--</td>-->
                 </tr>
                 {% endfor %}
                 </tbody>
@@ -53,10 +53,4 @@
         </p>
 
     </div>
-{% if phonenumbers.has_prev %}<a href="{{ url_for('home', page = phonenumbers.prev_num) }}"><< Newer
-    Numbers</a>{% else %}<<
-Newer Numbers{% endif %} |
-{% if phonenumbers.has_next %}<a href="{{ url_for('home', page = phonenumbers.next_num) }}">Older Numbers
-    >></a>{% else %}Older
-Numbers >>{% endif %}
 {% endblock %}
