@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/contact.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f1184eda-f8c7-483e-8858-6ecd650fd272" name="garbage" comment="">
@@ -146,10 +144,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="contact.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/contact.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="14" selection-start="242" selection-end="242" vertical-scroll-proportion="0.10628019" vertical-offset="24" max-vertical-offset="675">
+                <state line="39" column="14" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.90338165" vertical-offset="24" max-vertical-offset="675">
                   <folding />
                 </state>
               </provider>
@@ -159,19 +157,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="addnumber.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="addnumber.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="18" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="615">
+                <state line="18" column="32" selection-start="604" selection-end="604" vertical-scroll-proportion="0.41158536" vertical-offset="0" max-vertical-offset="656">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="113" column="23" selection-start="4505" selection-end="4505" vertical-scroll-proportion="0.59807074" vertical-offset="1323" max-vertical-offset="2055">
+                <state line="113" column="23" selection-start="4505" selection-end="4505" vertical-scroll-proportion="-6.413793" vertical-offset="1323" max-vertical-offset="2055">
                   <folding>
                     <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -217,13 +215,13 @@
         <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/about.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/index.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/base.html" />
         <option value="$PROJECT_DIR$/mysecondapp/static/css/custom.css" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/contact.html" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
       </list>
     </option>
   </component>
@@ -808,7 +806,11 @@
       <created>1387498498878</created>
       <updated>1387498498878</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="contact form disabled">
+      <created>1387499105649</created>
+      <updated>1387499105649</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -888,7 +890,8 @@
     <MESSAGE value="banner edit" />
     <MESSAGE value="css restyle" />
     <MESSAGE value="contact form" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact form" />
+    <MESSAGE value="contact form disabled" />
+    <option name="LAST_COMMIT_MESSAGE" value="contact form disabled" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -981,13 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="18" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="22" selection-start="345" selection-end="1766" vertical-scroll-proportion="-21.875" vertical-offset="180" max-vertical-offset="885">
@@ -997,7 +993,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="23" selection-start="4505" selection-end="4505" vertical-scroll-proportion="0.59807074" vertical-offset="1323" max-vertical-offset="2055">
+        <state line="113" column="23" selection-start="4505" selection-end="4505" vertical-scroll-proportion="-6.413793" vertical-offset="1323" max-vertical-offset="2055">
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1020,7 +1016,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="242" selection-end="242" vertical-scroll-proportion="0.10628019" vertical-offset="24" max-vertical-offset="675">
+        <state line="39" column="14" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.90338165" vertical-offset="24" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="32" selection-start="604" selection-end="604" vertical-scroll-proportion="0.41158536" vertical-offset="0" max-vertical-offset="656">
           <folding />
         </state>
       </provider>
