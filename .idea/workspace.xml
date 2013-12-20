@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/templates/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/templates/base.html" afterPath="$PROJECT_DIR$/myapp/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/base.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/myapp/static/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/home.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/templates/index.html" afterPath="$PROJECT_DIR$/myapp/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/index.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/contact.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/signup.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f1184eda-f8c7-483e-8858-6ecd650fd272" name="garbage" comment="">
@@ -66,7 +57,7 @@
     <favorites_list name="www" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.34942216">
+    <splitter split-orientation="horizontal" split-proportion="0.5234534">
       <split-first>
         <leaf>
           <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
@@ -107,10 +98,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="signup.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mysecondapp/templates/signup.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="47" column="22" selection-start="345" selection-end="1766" vertical-scroll-proportion="-21.875" vertical-offset="180" max-vertical-offset="885">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/static/css/custom.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.41860464" vertical-offset="0" max-vertical-offset="645">
+                <state line="18" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
                   <folding />
                 </state>
               </provider>
@@ -119,7 +119,7 @@
           <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="76" column="29" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.0" vertical-offset="847" max-vertical-offset="3165">
+                <state line="76" column="29" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.0" vertical-offset="937" max-vertical-offset="3165">
                   <folding />
                 </state>
               </provider>
@@ -136,10 +136,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="contact.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/contact.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="0" selection-start="243" selection-end="392" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="765">
+                <state line="23" column="10" selection-start="830" selection-end="830" vertical-scroll-proportion="0.5169082" vertical-offset="24" max-vertical-offset="660">
                   <folding />
                 </state>
               </provider>
@@ -149,19 +149,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="addnumber.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="addnumber.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="29" selection-start="440" selection-end="440" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="615">
+                <state line="29" column="18" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.6631098" vertical-offset="0" max-vertical-offset="656">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="100" column="0" selection-start="3670" selection-end="3670" vertical-scroll-proportion="0.28456593" vertical-offset="1323" max-vertical-offset="2055">
+                <state line="108" column="113" selection-start="4112" selection-end="4208" vertical-scroll-proportion="-5.12069" vertical-offset="1323" max-vertical-offset="2055">
                   <folding>
                     <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -198,7 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
         <option value="$PROJECT_DIR$/myapp/static/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/myapp/templates/index.html" />
@@ -208,12 +207,13 @@
         <option value="$PROJECT_DIR$/myapp/templates/base.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/contact.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/about.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/index.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/base.html" />
         <option value="$PROJECT_DIR$/mysecondapp/static/css/custom.css" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/contact.html" />
       </list>
     </option>
   </component>
@@ -790,7 +790,11 @@
       <created>1387419524036</created>
       <updated>1387419524036</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="css restyle">
+      <created>1387497443815</created>
+      <updated>1387497443815</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -817,6 +821,7 @@
     <frame x="1365" y="0" width="1682" height="1051" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27857935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -833,7 +838,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2918979" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -868,7 +872,8 @@
     <MESSAGE value="keycode label bug?" />
     <MESSAGE value="keycode label bug? take 2" />
     <MESSAGE value="banner edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="banner edit" />
+    <MESSAGE value="css restyle" />
+    <option name="LAST_COMMIT_MESSAGE" value="css restyle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -879,13 +884,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myapp/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5451" column="17" selection-start="125747" selection-end="125747" vertical-scroll-proportion="-10.382353" vertical-offset="81412" max-vertical-offset="81870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/scratch">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="27" selection-start="2715" selection-end="4089" vertical-scroll-proportion="0.0" vertical-offset="907" max-vertical-offset="1410">
@@ -945,13 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="29" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.0" vertical-offset="847" max-vertical-offset="3165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="14" selection-start="395" selection-end="395" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="585">
@@ -966,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="243" selection-end="392" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="88" selection-end="441" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1065">
@@ -982,26 +966,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="440" selection-end="440" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.41860464" vertical-offset="0" max-vertical-offset="645">
+        <state line="18" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="3670" selection-end="3670" vertical-scroll-proportion="0.28456593" vertical-offset="1323" max-vertical-offset="2055">
+        <state line="108" column="113" selection-start="4112" selection-end="4208" vertical-scroll-proportion="-5.12069" vertical-offset="1323" max-vertical-offset="2055">
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="18" selection-start="1117" selection-end="1117" vertical-scroll-proportion="0.6631098" vertical-offset="0" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="22" selection-start="345" selection-end="1766" vertical-scroll-proportion="-21.875" vertical-offset="180" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="29" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.0" vertical-offset="847" max-vertical-offset="3165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="10" selection-start="830" selection-end="830" vertical-scroll-proportion="0.5169082" vertical-offset="24" max-vertical-offset="660">
+          <folding />
         </state>
       </provider>
     </entry>
