@@ -40,7 +40,7 @@ def get_number(id=0):
     resp = twilio.twiml.Response()
     if request.method == 'GET':
         with resp.gather(numDigits=10, action="/twilio", method="POST") as r:
-            r.say("Enter your phone number.", voice=twilio.twiml.Say.ALICE)
+            r.say("Enter your phone number.", voice=twilio.twiml.Say.alice)
         return str(resp)
     elif request.method == 'POST':
         if id == 0:
