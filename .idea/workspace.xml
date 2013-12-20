@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/base.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/contact.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/static/css/custom.css" afterPath="$PROJECT_DIR$/mysecondapp/static/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/home.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/index.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/img/logo.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f1184eda-f8c7-483e-8858-6ecd650fd272" name="garbage" comment="">
@@ -96,7 +89,7 @@
           <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/static/css/custom.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="41" selection-start="683" selection-end="683" vertical-scroll-proportion="0.3255814" vertical-offset="420" max-vertical-offset="1065">
+                <state line="58" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="0.6976744" vertical-offset="420" max-vertical-offset="1065">
                   <folding />
                 </state>
               </provider>
@@ -348,6 +341,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysecondapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -869,7 +884,11 @@
       <created>1387501445737</created>
       <updated>1387501445737</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="made much prettier">
+      <created>1387578302531</created>
+      <updated>1387578302531</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -925,7 +944,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="title change and os.path file&#10;" />
     <MESSAGE value="fuck up" />
     <MESSAGE value="home -&gt; index" />
     <MESSAGE value="twilio" />
@@ -950,7 +968,8 @@
     <MESSAGE value="change voice alice" />
     <MESSAGE value="change voice alice for all methos" />
     <MESSAGE value="change voice back to man, alice sucks" />
-    <option name="LAST_COMMIT_MESSAGE" value="change voice back to man, alice sucks" />
+    <MESSAGE value="made much prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="made much prettier" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1079,7 +1098,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="41" selection-start="683" selection-end="683" vertical-scroll-proportion="0.3255814" vertical-offset="420" max-vertical-offset="1065">
+        <state line="58" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="0.6976744" vertical-offset="420" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
