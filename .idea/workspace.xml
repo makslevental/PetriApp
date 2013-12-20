@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysecondapp/static/img/logo.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/about.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/base.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/static/css/custom.css" afterPath="$PROJECT_DIR$/mysecondapp/static/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/home.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/login.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/signup.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f1184eda-f8c7-483e-8858-6ecd650fd272" name="garbage" comment="">
@@ -56,7 +62,7 @@
     <favorites_list name="www" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45207343">
+    <splitter split-orientation="horizontal" split-proportion="0.35031402">
       <split-first>
         <leaf>
           <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
@@ -71,25 +77,7 @@
           <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="14" selection-start="394" selection-end="394" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="765">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="signup.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mysecondapp/templates/signup.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="47" column="22" selection-start="345" selection-end="1766" vertical-scroll-proportion="-21.875" vertical-offset="180" max-vertical-offset="885">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/mysecondapp/static/css/custom.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="58" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="0.6976744" vertical-offset="420" max-vertical-offset="1065">
+                <state line="24" column="58" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="525">
                   <folding />
                 </state>
               </provider>
@@ -98,10 +86,28 @@
           <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="185" column="30" selection-start="7134" selection-end="7134" vertical-scroll-proportion="-9.588235" vertical-offset="2449" max-vertical-offset="3525">
+                <state line="94" column="0" selection-start="3337" selection-end="3337" vertical-scroll-proportion="23.941177" vertical-offset="2224" max-vertical-offset="3525">
                   <folding>
                     <element signature="e#20#100#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="signup.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mysecondapp/templates/signup.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="65" column="53" selection-start="2315" selection-end="2315" vertical-scroll-proportion="-26.875" vertical-offset="330" max-vertical-offset="1485">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/mysecondapp/static/css/custom.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="20" column="18" selection-start="281" selection-end="281" vertical-scroll-proportion="0.32072368" vertical-offset="105" max-vertical-offset="1260">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -148,8 +154,11 @@
           <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="12" selection-start="687" selection-end="687" vertical-scroll-proportion="-6.25" vertical-offset="180" max-vertical-offset="1575">
-                  <folding />
+                <state line="16" column="26" selection-start="490" selection-end="490" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="420">
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="tag#div#1" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -161,17 +170,30 @@
           <file leaf-file-name="addnumber.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="26" selection-start="437" selection-end="437" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="1110">
+                <state line="2" column="0" selection-start="42" selection-end="250" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1110">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/mysecondapp/templates/login.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="14" selection-start="262" selection-end="262" vertical-scroll-proportion="0.13953489" vertical-offset="0" max-vertical-offset="645">
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/base.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="85" column="23" selection-start="3203" selection-end="3203" vertical-scroll-proportion="-0.32943144" vertical-offset="1472" max-vertical-offset="2115">
+                <state line="107" column="26" selection-start="3851" selection-end="3851" vertical-scroll-proportion="-14.448276" vertical-offset="347" max-vertical-offset="1710">
                   <folding>
+                    <element signature="tag#head#0;tag#html#0" expanded="false" />
                     <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -182,7 +204,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="19" selection-start="416" selection-end="416" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="600">
+                <state line="14" column="21" selection-start="429" selection-end="438" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="600">
                   <folding />
                 </state>
               </provider>
@@ -191,7 +213,7 @@
           <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/contact.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="26" selection-start="439" selection-end="439" vertical-scroll-proportion="16.416666" vertical-offset="574" max-vertical-offset="1230">
+                <state line="76" column="14" selection-start="392" selection-end="2513" vertical-scroll-proportion="-47.5" vertical-offset="0" max-vertical-offset="1230">
                   <folding />
                 </state>
               </provider>
@@ -226,22 +248,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mysecondapp/templates/test" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/test.html" />
         <option value="$PROJECT_DIR$/myapp/templates/base.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/about.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
         <option value="/usr/local/lib/python2.7/dist-packages/twilio/twiml.py" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/index.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/base.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/contact.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/config.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" />
-        <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/contact.html" />
         <option value="$PROJECT_DIR$/mysecondapp/static/css/custom.css" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/about.html" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/index.html" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/base.html" />
+        <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/login.html" />
       </list>
     </option>
   </component>
@@ -888,7 +910,11 @@
       <created>1387578302531</created>
       <updated>1387578302531</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="logo.gif">
+      <created>1387578441076</created>
+      <updated>1387578441076</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -921,7 +947,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08281389" sideWeight="0.7081021" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.115337424" sideWeight="0.8013319" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09754601" sideWeight="0.8013319" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12085889" sideWeight="0.8013319" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29078802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -944,7 +970,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="fuck up" />
     <MESSAGE value="home -&gt; index" />
     <MESSAGE value="twilio" />
     <MESSAGE value="remember error" />
@@ -969,7 +994,8 @@
     <MESSAGE value="change voice alice for all methos" />
     <MESSAGE value="change voice back to man, alice sucks" />
     <MESSAGE value="made much prettier" />
-    <option name="LAST_COMMIT_MESSAGE" value="made much prettier" />
+    <MESSAGE value="logo.gif" />
+    <option name="LAST_COMMIT_MESSAGE" value="logo.gif" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -990,27 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="229" selection-end="252" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="394" selection-end="394" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="22" selection-start="345" selection-end="1766" vertical-scroll-proportion="-21.875" vertical-offset="180" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/twilio/twiml.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="238" column="17" selection-start="7148" selection-end="7148" vertical-scroll-proportion="0.0" vertical-offset="2995" max-vertical-offset="8715">
@@ -1018,30 +1023,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="437" selection-end="437" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="19" selection-start="416" selection-end="416" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="111" column="6" selection-start="4792" selection-end="4792" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="439" selection-end="439" vertical-scroll-proportion="16.416666" vertical-offset="574" max-vertical-offset="1230">
           <folding />
         </state>
       </provider>
@@ -1060,15 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="30" selection-start="7134" selection-end="7134" vertical-scroll-proportion="-9.588235" vertical-offset="2449" max-vertical-offset="3525">
-          <folding>
-            <element signature="e#20#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
@@ -1079,26 +1054,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="53" selection-start="2315" selection-end="2315" vertical-scroll-proportion="-26.875" vertical-offset="330" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="21" selection-start="429" selection-end="438" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="14" selection-start="392" selection-end="2513" vertical-scroll-proportion="-47.5" vertical-offset="0" max-vertical-offset="1230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="687" selection-end="687" vertical-scroll-proportion="-6.25" vertical-offset="180" max-vertical-offset="1575">
+        <state line="16" column="26" selection-start="490" selection-end="490" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="420">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="tag#div#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="58" selection-start="1546" selection-end="1546" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="525">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="0" selection-start="3337" selection-end="3337" vertical-scroll-proportion="23.941177" vertical-offset="2224" max-vertical-offset="3525">
+          <folding>
+            <element signature="e#20#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="23" selection-start="3203" selection-end="3203" vertical-scroll-proportion="-0.32943144" vertical-offset="1472" max-vertical-offset="2115">
+        <state line="107" column="26" selection-start="3851" selection-end="3851" vertical-scroll-proportion="-14.448276" vertical-offset="347" max-vertical-offset="1710">
           <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="42" selection-end="250" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="262" selection-end="262" vertical-scroll-proportion="0.13953489" vertical-offset="0" max-vertical-offset="645">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="0.6976744" vertical-offset="420" max-vertical-offset="1065">
+        <state line="20" column="18" selection-start="281" selection-end="281" vertical-scroll-proportion="0.32072368" vertical-offset="105" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
