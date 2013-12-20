@@ -8,7 +8,7 @@ from models import User, ROLE_USER, ROLE_ADMIN, Phonenumbers
 from datetime import datetime
 from config import NUMBERS_PER_PAGE
 from emails import follower_notification
-import twilio
+import twilio.twiml
 import string
 
 all = string.maketrans('', '')
@@ -40,7 +40,7 @@ def get_number(id=0):
     resp = twilio.twiml.Response()
     if request.method == 'GET':
         with resp.gather(numDigits=10, action="/twilio", method="POST") as r:
-            r.say("Enter your phone number.", voice=twilio.Say.alice)
+            r.say("Enter your phone number.", voice=twilio.twiml.Say.ALICE)
         return str(resp)
     elif request.method == 'POST':
         if id == 0:
