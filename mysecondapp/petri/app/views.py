@@ -49,15 +49,15 @@ def get_number(id=0):
             if user:
                 user_id = User.query.filter_by(phonenumber=str(digit_pressed).lower()).first().id
                 with resp.gather(numDigits=4, action="/twilio_key/"+str(user_id), method="POST") as r:
-                    r.say("Enter your 4 digit key code.")
+                    r.say("Enter your 4 digit key code.", voice=twilio.twiml.Say.ALICE)
                 return str(resp)
             else:
-                resp.say("That phone number doesn't exist. Please try again.")
+                resp.say("That phone number doesn't exist. Please try again.", voice=twilio.twiml.Say.ALICE)
                 resp.redirect('/twilio', method='GET')
                 return str(resp)
         else:
             with resp.gather(numDigits=4, action="/twilio_key/" + str(id), method="POST") as r:
-                r.say("Enter your 4 digit key code.")
+                r.say("Enter your 4 digit key code.", voice=twilio.twiml.Say.ALICE)
             return str(resp)
 
 @app.route("/twilio_key/<int:id>", methods=['GET', 'POST'])
@@ -70,14 +70,14 @@ def handle_telnumber(id):
     if user and user.check_keycodehash(digit_pressed):
         phonenumbers = user.phonenumbers.all()
         for number in phonenumbers:
-            resp.say(str(number.firstname))
-            resp.say(str(number.lastname))
+            resp.say(str(number.firstname), voice=twilio.twiml.Say.ALICE)
+            resp.say(str(number.lastname), voice=twilio.twiml.Say.ALICE)
             for n in number.number:
-                resp.say(str(n))
+                resp.say(str(n), voice=twilio.twiml.Say.ALICE)
         resp.say("Good bye!")
         return str(resp)
     else:
-        resp.say("Incorrect key code. Please try again.")
+        resp.say("Incorrect key code. Please try again.", voice=twilio.twiml.Say.ALICE)
         resp.redirect("/twilio/"+str(id), method='POST')
     return str(resp)
 
