@@ -10,31 +10,68 @@
 <li><a href="{{ url_for('addnumber') }}">Add number</a></li>
 {% endblock %}
 {% block content %}
+{% include 'flash.html' %}
 <div class="well">
-<form action="{{ url_for('contact') }}" method=post>
-    {#{ form.hidden_tag() }#}
-    <fieldset disabled>
-    <div class="form-group">
-        <label>First name</label>
-        <input type="text" class="form-control" name="firstname" placeholder="John">
-    </div>
-    <div class="form-group">
-        <label>Last name</label>
-        <input type="text" class="form-control" name="lastname" placeholder="Doe">
-    </div>
 
-    <div class="form-group">
-        <label>Email address</label>
-        <input type="text" class="form-control" name="email" placeholder="john@aol.com">
-    </div>
+    <form class="form-horizontal" action="{{ url_for('contact') }}" method=post>
+        <fieldset>
+            {{ form.hidden_tag() }}
+            <!-- Form Name -->
+            <!--<legend>Form Name</legend>-->
 
-    <div class="form-group">
-        <label>Message</label>
-        <textarea class="form-control" name="message" rows="3"></textarea>
-    </div>
+            <!-- Text input-->
+            <div class="form-group">
 
-    <input class="btn btn-primary" type="submit" value="Send">
+                <label class="col-md-4 control-label" for="firstname">First name</label>
+
+                <div class="col-md-5">
+                    <input id="firstname" name="firstname" type="text" placeholder="" class="form-control input-md"
+                           required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="lastname">Last name</label>
+
+                <div class="col-md-5">
+                    <input id="lastname" name="lastname" type="text" placeholder="" class="form-control input-md"
+                           required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="email">Email</label>
+
+                <div class="col-md-5">
+                    <input id="email" name="email" type="text" placeholder="" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <!-- Textarea -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="message">Message</label>
+
+                <div class="col-md-5">
+                    <textarea class="form-control" id="message" name="message"></textarea>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="submit"></label>
+
+                <div class="col-md-4">
+                    <button id="submit" name="submit" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+
         </fieldset>
-</form>
+    </form>
+
 </div>
 {% endblock %}

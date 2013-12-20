@@ -2,12 +2,12 @@
 __author__ = 'max'
 from flask import render_template, flash, redirect, session, url_for, request, g
 from flask.ext.login import login_user, logout_user, current_user, login_required
-from app import app, db, lm, oid
+from app import app, db, lm, mail, Message
 from forms import LoginForm, EditForm, PostForm, SignupForm, AddNumberForm, ContactForm
 from models import User, ROLE_USER, ROLE_ADMIN, Phonenumbers
 from datetime import datetime
 from config import NUMBERS_PER_PAGE
-from emails import follower_notification
+from flask.ext.mail import Message, Mail
 import twilio.twiml
 import string
 
@@ -93,10 +93,24 @@ def about():
     return render_template('about.html', form=form)
 
 #TODO-contact form and login form collision
-@app.route('/contact')
+@app.route('/contact', methods=['GET', 'POST'])
 def contact():
     form = ContactForm()
-    return render_template('contact.html', form=form)
+    if request.method == 'GET':
+        return render_template('contact.html', form=form)
+    else:
+        if form.validate() == False:
+            # errors are automatically stored in the form and template has access to them
+            flash_errors(form)
+            return render_template('contact.html', form=form)
+        else:
+            msg = Message("message from petri",
+                          sender=form.email.data,
+                          recipients=['maksim.levental@gmail.com', 'petriapp@gmail.com'])
+            msg.body = """From: %s %s <%s> %s""" % (form.firstname.data, form.lastname.data, form.email.data, form.message.data)
+            mail.send(msg)
+            flash('Your message been successfully sent')
+            return render_template('contact.html', form=form)
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
@@ -169,7 +183,7 @@ def addnumber():
         phonenumber = Phonenumbers(firstname=form.firstname.data, lastname=form.lastname.data, number=cleanPhoneNumber, owner=g.user)
         db.session.add(phonenumber)
         db.session.commit()
-        flash('Your changes have been saved.')
+        flash('Your number has been saved.')
         return redirect(url_for('home'))
     else:
         flash_errors(form)
