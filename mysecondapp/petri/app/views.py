@@ -92,7 +92,7 @@ def about():
     form = LoginForm()
     return render_template('about.html', form=form)
 
-#TODO-contact form and login form collision
+
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
     form = ContactForm()

@@ -6,48 +6,89 @@
 <li><a href="{{ url_for('contact') }}">Contact</a></li>
 {% endblock %}
 {% block content %}
+{% include 'flash.html' %}
+<div class="well">
 
-<div class="well" id="center">
-    {% include 'flash.html' %}
-
-
-
-
-        <form action="{{ url_for('signup') }}" method=post>
+    <form class="form-horizontal" action="{{ url_for('signup') }}" method=post>
+        <fieldset>
             {{ form.hidden_tag() }}
+            <!-- Form Name -->
+            <!--<legend>Form Name</legend>-->
 
+            <!-- Text input-->
             <div class="form-group">
-                <label>First name</label>
-                <input type="text" class="form-control" name="firstname" placeholder="John">
-            </div>
-            <div class="form-group">
-                <label>Last name</label>
-                <input type="text" class="form-control" name="lastname" placeholder="Doe">
-            </div>
-            <div class="form-group">
-                <label>Phone number</label>
-                <input type="text" class="form-control" name="phonenumber" placeholder="9545556666">
-            </div>
 
-            <div class="form-group">
-                <label>Email address</label>
-                <input type="text" class="form-control" name="email" placeholder="john@aol.com">
+                <label class="col-md-4 control-label" for="firstname">First name</label>
+
+                <div class="col-md-5">
+                    <input id="firstname" name="firstname" type="text" placeholder="" class="form-control input-md"
+                           required="">
+
+                </div>
             </div>
 
+            <!-- Text input-->
             <div class="form-group">
-                <label>4 digit Key code for telephone entry</label>
-                <input type="password" required="" name="keycode" placeholder="Key code" class="form-control">
+                <label class="col-md-4 control-label" for="lastname">Last name</label>
+
+                <div class="col-md-5">
+                    <input id="lastname" name="lastname" type="text" placeholder="" class="form-control input-md"
+                           required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="phonenumber">Your phone number</label>
+
+                <div class="col-md-5">
+                    <input id="phonenumber" name="phonenumber" type="text" placeholder="" class="form-control input-md"
+                           required="">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="email">Email</label>
+
+                <div class="col-md-5">
+                    <input id="email" name="email" type="text" placeholder="" class="form-control input-md" required="">
+
+                </div>
             </div>
 
             <div class="form-group">
-                <label>Password</label>
-                <input type="password" required="" name="password" placeholder="Password" class="form-control">
+                <label class="col-md-4 control-label" for="keycode">Unique 4 digit key-code</label>
+
+                <div class="col-md-5">
+                    <input id="keycode" name="keycode" type="password" placeholder="1234" class="form-control input-md" required="">
+
+                </div>
             </div>
 
-            <br>
-            <input class="btn btn-primary" type="submit" value="Sign up">
-        </form>
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="password">Password</label>
+
+                <div class="col-md-5">
+                    <input id="password" name="password" type="password" placeholder="" class="form-control input-md" required="">
+
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="submit"></label>
+
+                <div class="col-md-4">
+                    <button id="submit" name="submit" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
 
 </div>
-<p><a href="{{ url_for('home') }}">Back</a></p>
 {% endblock %}
