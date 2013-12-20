@@ -127,11 +127,10 @@
           <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="68" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.56329113" vertical-offset="94" max-vertical-offset="3135">
+                <state line="10" column="13" selection-start="485" selection-end="485" vertical-scroll-proportion="-0.125" vertical-offset="229" max-vertical-offset="3135">
                   <folding>
-                    <element signature="e#20#100#0" expanded="true" />
-                    <element signature="e#611#860#0" expanded="false" />
-                    <element signature="e#935#1094#0" expanded="false" />
+                    <element signature="e#605#854#0" expanded="false" />
+                    <element signature="e#929#1088#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -818,7 +817,11 @@
       <created>1387499252497</created>
       <updated>1387499252497</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="  add number form didn't post">
+      <created>1387500338968</created>
+      <updated>1387500338968</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1031,11 +1034,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="68" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.56329113" vertical-offset="94" max-vertical-offset="3135">
+        <state line="10" column="13" selection-start="485" selection-end="485" vertical-scroll-proportion="-0.125" vertical-offset="229" max-vertical-offset="3135">
           <folding>
-            <element signature="e#20#100#0" expanded="true" />
-            <element signature="e#611#860#0" expanded="false" />
-            <element signature="e#935#1094#0" expanded="false" />
+            <element signature="e#605#854#0" expanded="false" />
+            <element signature="e#929#1088#0" expanded="false" />
           </folding>
         </state>
       </provider>
