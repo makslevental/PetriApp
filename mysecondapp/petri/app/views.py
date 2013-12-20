@@ -8,7 +8,7 @@ from models import User, ROLE_USER, ROLE_ADMIN, Phonenumbers
 from datetime import datetime
 from config import NUMBERS_PER_PAGE
 from emails import follower_notification
-import twilio.twiml
+import twilio
 import string
 
 all = string.maketrans('', '')
