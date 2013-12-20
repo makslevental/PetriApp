@@ -1,39 +1,53 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
-
+{% block leftnavbar %}
+<li id="brand"><a href="{{ url_for('index') }}">Petri</a></li>
+<li><a href="{{ url_for('about') }}">About</a></li>
+<li><a href="{{ url_for('contact') }}">Contact</a></li>
+{% endblock %}
 {% block content %}
 
-<div class="well">
+<div class="well" id="center">
     {% include 'flash.html' %}
-    <form class="form-group" action="{{ url_for('signup') }}" method=post>
+
 
 
 
         <form action="{{ url_for('signup') }}" method=post>
             {{ form.hidden_tag() }}
 
-            {{ form.firstname.label }}
-            {{ form.firstname }}
+            <div class="form-group">
+                <label>First name</label>
+                <input type="text" class="form-control" name="firstname" placeholder="John">
+            </div>
+            <div class="form-group">
+                <label>Last name</label>
+                <input type="text" class="form-control" name="lastname" placeholder="Doe">
+            </div>
+            <div class="form-group">
+                <label>Phone number</label>
+                <input type="text" class="form-control" name="phonenumber" placeholder="9545556666">
+            </div>
 
-            {{ form.lastname.label }}
-            {{ form.lastname }}
+            <div class="form-group">
+                <label>Email address</label>
+                <input type="text" class="form-control" name="email" placeholder="john@aol.com">
+            </div>
 
-            {{ form.email.label }}
-            {{ form.email }}
+            <div class="form-group">
+                <label>4 digit Key code for telephone entry</label>
+                <input type="password" required="" name="keycode" placeholder="Key code" class="form-control">
+            </div>
 
-            {{ form.phonenumber.label }}
-            {{ form.phonenumber }}
-
-            {{ form.keycode.label }}
-            {{ form.keycode }}
-
-            {{ form.password.label }}
-            {{ form.password }}
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" required="" name="password" placeholder="Password" class="form-control">
+            </div>
 
             <br>
             <input class="btn btn-primary" type="submit" value="Sign up">
         </form>
-    </form>
+
 </div>
 <p><a href="{{ url_for('home') }}">Back</a></p>
 {% endblock %}

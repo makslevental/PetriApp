@@ -10,37 +10,30 @@
 <li><a href="{{ url_for('addnumber') }}">Add number</a></li>
 {% endblock %}
 {% block content %}
+<div class="well">
+<form action="{{ url_for('contact') }}" method=post>
+    {#{ form.hidden_tag() }#}
 
-<div class="row marketing">
-    <div class="col-lg-6">
-        <h4>Subheading</h4>
-
-        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-        <h4>Subheading</h4>
-
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet
-            fermentum.</p>
-
-        <h4>Subheading</h4>
-
-        <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+    <div class="form-group">
+        <label>First name</label>
+        <input type="text" class="form-control" name="firstname" placeholder="John">
+    </div>
+    <div class="form-group">
+        <label>Last name</label>
+        <input type="text" class="form-control" name="lastname" placeholder="Doe">
     </div>
 
-    <div class="col-lg-6">
-        <h4>Subheading</h4>
-
-        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-        <h4>Subheading</h4>
-
-        <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet
-            fermentum.</p>
-
-        <h4>Subheading</h4>
-
-        <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+    <div class="form-group">
+        <label>Email address</label>
+        <input type="text" class="form-control" name="email" placeholder="john@aol.com">
     </div>
+
+    <div class="form-group">
+        <label>Message</label>
+        <textarea class="form-control" name="message" rows="3"></textarea>
+    </div>
+
+    <input class="btn btn-primary" type="submit" value="Send">
+</form>
 </div>
-
 {% endblock %}
