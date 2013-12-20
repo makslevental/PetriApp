@@ -38,7 +38,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/www$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1387389567359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/twilio" />
     <SUITE FILE_PATH="coverage/www$run.coverage" NAME="run Coverage Results" MODIFIED="1387459925904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/flaskr" />
-    <SUITE FILE_PATH="coverage/www$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1387493433922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysecondapp/petri" />
+    <SUITE FILE_PATH="coverage/www$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1387501409249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysecondapp/petri" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -116,11 +116,9 @@
           <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="75" column="61" selection-start="3117" selection-end="3117" vertical-scroll-proportion="0.75457317" vertical-offset="450" max-vertical-offset="3135">
+                <state line="42" column="44" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.02538071" vertical-offset="615" max-vertical-offset="3315">
                   <folding>
                     <element signature="e#20#100#0" expanded="true" />
-                    <element signature="e#611#860#0" expanded="false" />
-                    <element signature="e#935#1094#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -836,7 +834,11 @@
       <created>1387501076927</created>
       <updated>1387501076927</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="change voice alice for all methos">
+      <created>1387501209607</created>
+      <updated>1387501209607</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -892,7 +894,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="make debuggable" />
     <MESSAGE value="errant import" />
     <MESSAGE value="title change and os.path file&#10;" />
     <MESSAGE value="fuck up" />
@@ -917,7 +918,8 @@
     <MESSAGE value="contact form disabled" />
     <MESSAGE value="  add number form didn't post" />
     <MESSAGE value="change voice alice" />
-    <option name="LAST_COMMIT_MESSAGE" value="change voice alice" />
+    <MESSAGE value="change voice alice for all methos" />
+    <option name="LAST_COMMIT_MESSAGE" value="change voice alice for all methos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1046,11 +1048,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="61" selection-start="3117" selection-end="3117" vertical-scroll-proportion="0.75457317" vertical-offset="450" max-vertical-offset="3135">
+        <state line="42" column="44" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.02538071" vertical-offset="615" max-vertical-offset="3315">
           <folding>
             <element signature="e#20#100#0" expanded="true" />
-            <element signature="e#611#860#0" expanded="false" />
-            <element signature="e#935#1094#0" expanded="false" />
           </folding>
         </state>
       </provider>
