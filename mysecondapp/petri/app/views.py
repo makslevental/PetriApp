@@ -3,7 +3,7 @@ __author__ = 'max'
 from flask import render_template, flash, redirect, session, url_for, request, g
 from flask.ext.login import login_user, logout_user, current_user, login_required
 from app import app, db, lm, oid
-from forms import LoginForm, EditForm, PostForm, SignupForm, AddNumberForm
+from forms import LoginForm, EditForm, PostForm, SignupForm, AddNumberForm, ContactForm
 from models import User, ROLE_USER, ROLE_ADMIN, Phonenumbers
 from datetime import datetime
 from config import NUMBERS_PER_PAGE
@@ -95,7 +95,8 @@ def about():
 #TODO-contact form and login form collision
 @app.route('/contact')
 def contact():
-    return render_template('contact.html')
+    form = ContactForm()
+    return render_template('contact.html', form=form)
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
