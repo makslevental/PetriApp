@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/about.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/base.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/static/css/custom.css" afterPath="$PROJECT_DIR$/mysecondapp/static/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/home.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/login.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/signup.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f1184eda-f8c7-483e-8858-6ecd650fd272" name="garbage" comment="">
@@ -103,7 +97,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/static/css/custom.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="20" column="18" selection-start="281" selection-end="281" vertical-scroll-proportion="0.32072368" vertical-offset="105" max-vertical-offset="1260">
@@ -167,19 +161,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="addnumber.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="addnumber.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="0" selection-start="42" selection-end="250" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1110">
+                <state line="12" column="26" selection-start="437" selection-end="437" vertical-scroll-proportion="0.28481013" vertical-offset="0" max-vertical-offset="1110">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/login.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="14" selection-start="262" selection-end="262" vertical-scroll-proportion="0.13953489" vertical-offset="0" max-vertical-offset="645">
+                <state line="17" column="39" selection-start="620" selection-end="620" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="630">
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -254,7 +248,6 @@
         <option value="/usr/local/lib/python2.7/dist-packages/twilio/twiml.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/config.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/contact.html" />
         <option value="$PROJECT_DIR$/mysecondapp/static/css/custom.css" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/about.html" />
@@ -264,6 +257,7 @@
         <option value="$PROJECT_DIR$/mysecondapp/templates/base.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/login.html" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
       </list>
     </option>
   </component>
@@ -914,7 +908,11 @@
       <created>1387578441076</created>
       <updated>1387578441076</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="about copy and signup form">
+      <created>1387583310954</created>
+      <updated>1387583310954</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -970,7 +968,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="home -&gt; index" />
     <MESSAGE value="twilio" />
     <MESSAGE value="remember error" />
     <MESSAGE value="session remember me" />
@@ -995,7 +992,8 @@
     <MESSAGE value="change voice back to man, alice sucks" />
     <MESSAGE value="made much prettier" />
     <MESSAGE value="logo.gif" />
-    <option name="LAST_COMMIT_MESSAGE" value="logo.gif" />
+    <MESSAGE value="about copy and signup form" />
+    <option name="LAST_COMMIT_MESSAGE" value="about copy and signup form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1112,16 +1110,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
+    <entry file="file://$PROJECT_DIR$/mysecondapp/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="42" selection-end="250" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="1110">
+        <state line="20" column="18" selection-start="281" selection-end="281" vertical-scroll-proportion="0.32072368" vertical-offset="105" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="262" selection-end="262" vertical-scroll-proportion="0.13953489" vertical-offset="0" max-vertical-offset="645">
+        <state line="17" column="39" selection-start="620" selection-end="620" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="630">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -1129,9 +1127,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/static/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/addnumber.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="281" selection-end="281" vertical-scroll-proportion="0.32072368" vertical-offset="105" max-vertical-offset="1260">
+        <state line="12" column="26" selection-start="437" selection-end="437" vertical-scroll-proportion="0.28481013" vertical-offset="0" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
