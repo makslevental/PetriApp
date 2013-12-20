@@ -127,10 +127,11 @@
           <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="13" selection-start="485" selection-end="485" vertical-scroll-proportion="-0.125" vertical-offset="229" max-vertical-offset="3135">
+                <state line="42" column="74" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.64082277" vertical-offset="45" max-vertical-offset="3135">
                   <folding>
-                    <element signature="e#605#854#0" expanded="false" />
-                    <element signature="e#929#1088#0" expanded="false" />
+                    <element signature="e#20#100#0" expanded="true" />
+                    <element signature="e#611#860#0" expanded="false" />
+                    <element signature="e#935#1094#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -821,7 +822,11 @@
       <created>1387500338968</created>
       <updated>1387500338968</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="change voice alice">
+      <created>1387500479066</created>
+      <updated>1387500479066</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -877,7 +882,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="test" />
     <MESSAGE value="make debuggable" />
     <MESSAGE value="errant import" />
     <MESSAGE value="title change and os.path file&#10;" />
@@ -902,7 +906,8 @@
     <MESSAGE value="contact form" />
     <MESSAGE value="contact form disabled" />
     <MESSAGE value="  add number form didn't post" />
-    <option name="LAST_COMMIT_MESSAGE" value="  add number form didn't post" />
+    <MESSAGE value="change voice alice" />
+    <option name="LAST_COMMIT_MESSAGE" value="change voice alice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1034,10 +1039,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="485" selection-end="485" vertical-scroll-proportion="-0.125" vertical-offset="229" max-vertical-offset="3135">
+        <state line="42" column="74" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.64082277" vertical-offset="45" max-vertical-offset="3135">
           <folding>
-            <element signature="e#605#854#0" expanded="false" />
-            <element signature="e#929#1088#0" expanded="false" />
+            <element signature="e#20#100#0" expanded="true" />
+            <element signature="e#611#860#0" expanded="false" />
+            <element signature="e#935#1094#0" expanded="false" />
           </folding>
         </state>
       </provider>
