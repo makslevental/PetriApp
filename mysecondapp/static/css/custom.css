@@ -1,5 +1,6 @@
 .navbar-form.navbar-right:last-child {
     margin-right: 0px;
+    margin-left: 0px;
 }
 
 #brand {
@@ -15,4 +16,51 @@
 
 .modal-header .close {
     margin-top: 0px;
+}
+
+#Absolute-Center {
+    margin: 0 0 0 0;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.modal-content {
+    -webkit-transform: translate(50%, 50%) !important;
+    /*margin: auto 0 auto 0 : !important;*/
+    position: absolute;
+    width: 50%;
+    /*top: 0;*/
+    /*left: auto;*/
+    /*bottom: 0;*/
+    /*right: auto;*/
+}
+
+#test{
+    margin: 0 0 0 0; position : absolute;
+    width: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+"
+}
+
+#logo {
+    background-size: 100%;
+    background-size: cover;
+    background-position: center center;
+    vertical-align: top;
+    background-image: url(http://127.0.0.1:5000/static/img/logo.gif);
+}
+
+.img-responsive {
+    margin-bottom: 10px;
+}
+
+body {
+    min-height: 0; !important
 }
