@@ -108,3 +108,13 @@ class AddNumberForm(Form):
     def __init__(self, *args, **kwargs):
         Form.__init__(self, *args, **kwargs)
 
+
+class ContactForm(Form):
+    firstname = TextField("First name", [validators.Required("Please enter your first name.")])
+    lastname = TextField("Last name", [validators.Required("Please enter your last name.")])
+    email = TextField("Email", [validators.Required("Please enter your email address."),
+                                validators.Email("Please a valid email address.")])
+    message = TextField('post', validators=[Required()])
+
+    def __init__(self, *args, **kwargs):
+        Form.__init__(self, *args, **kwargs)

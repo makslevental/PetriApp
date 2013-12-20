@@ -13,7 +13,7 @@
 <div class="well">
 <form action="{{ url_for('contact') }}" method=post>
     {#{ form.hidden_tag() }#}
-
+    <fieldset disabled>
     <div class="form-group">
         <label>First name</label>
         <input type="text" class="form-control" name="firstname" placeholder="John">
@@ -34,6 +34,7 @@
     </div>
 
     <input class="btn btn-primary" type="submit" value="Send">
+        </fieldset>
 </form>
 </div>
 {% endblock %}
