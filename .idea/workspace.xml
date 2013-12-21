@@ -82,7 +82,7 @@
           <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="70" column="45" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.6629921" vertical-offset="629" max-vertical-offset="3540">
+                <state line="70" column="28" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.6629921" vertical-offset="629" max-vertical-offset="3540">
                   <folding>
                     <element signature="e#20#100#0" expanded="true" />
                   </folding>
@@ -941,7 +941,11 @@
       <created>1387590337834</created>
       <updated>1387590337834</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add greeting to phone menu">
+      <created>1387590412436</created>
+      <updated>1387590412437</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1144,7 +1148,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="45" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.6629921" vertical-offset="629" max-vertical-offset="3540">
+        <state line="70" column="28" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.6629921" vertical-offset="629" max-vertical-offset="3540">
           <folding>
             <element signature="e#20#100#0" expanded="true" />
           </folding>
