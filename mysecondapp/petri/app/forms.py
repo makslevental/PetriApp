@@ -115,7 +115,7 @@ class AddNumberForm(Form):
             return False
         cleanPhoneNumber = str(self.phonenumber.data).translate(all, nodigs)
         number = Phonenumbers.query.filter_by(firstname=self.firstname.data.title()).filter_by(lastname=self.lastname.data.title()).filter_by(
-            number=self.phonenumber.data).first()
+            number=cleanPhoneNumber).first()
         if number :
             flash('Person has already been entered.')
             return False
