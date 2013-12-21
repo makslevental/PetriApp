@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/models.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f1184eda-f8c7-483e-8858-6ecd650fd272" name="garbage" comment="">
@@ -57,13 +56,13 @@
     <favorites_list name="www" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.72122055">
+    <splitter split-orientation="horizontal" split-proportion="0.8259362">
       <split-first>
         <leaf>
-          <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="forms.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/forms.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="82" column="44" selection-start="3440" selection-end="3540" vertical-scroll-proportion="-12.3529415" vertical-offset="810" max-vertical-offset="2070">
+                <state line="64" column="8" selection-start="2826" selection-end="2826" vertical-scroll-proportion="0.7401575" vertical-offset="490" max-vertical-offset="2070">
                   <folding>
                     <element signature="e#19#42#0" expanded="true" />
                   </folding>
@@ -107,10 +106,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="54" column="27" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.30493274" vertical-offset="606" max-vertical-offset="1320">
+                <state line="74" column="47" selection-start="2609" selection-end="2609" vertical-scroll-proportion="0.0" vertical-offset="606" max-vertical-offset="1320">
                   <folding>
                     <element signature="e#0#23#0" expanded="true" />
                   </folding>
@@ -248,8 +247,8 @@
         <option value="$PROJECT_DIR$/mysecondapp/templates/login.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/models.py" />
+        <option value="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
       </list>
     </option>
   </component>
@@ -916,7 +915,11 @@
       <created>1387585526476</created>
       <updated>1387585526476</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="changed phonenumbers model to have titled fields">
+      <created>1387587097795</created>
+      <updated>1387587097795</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -972,7 +975,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="session remember me" />
     <MESSAGE value="db migrate test" />
     <MESSAGE value="db upgrade test 2" />
     <MESSAGE value="mysecondapp" />
@@ -997,7 +999,8 @@
     <MESSAGE value="about copy and signup form" />
     <MESSAGE value="addnumber post to addnumber instead of contact" />
     <MESSAGE value="phonenumber validation changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="phonenumber validation changed" />
+    <MESSAGE value="changed phonenumbers model to have titled fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed phonenumbers model to have titled fields" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1106,20 +1109,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/forms.py">
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="44" selection-start="3440" selection-end="3540" vertical-scroll-proportion="-12.3529415" vertical-offset="810" max-vertical-offset="2070">
+        <state line="74" column="47" selection-start="2609" selection-end="2609" vertical-scroll-proportion="0.0" vertical-offset="606" max-vertical-offset="1320">
           <folding>
-            <element signature="e#19#42#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="27" selection-start="1934" selection-end="1934" vertical-scroll-proportion="0.30493274" vertical-offset="606" max-vertical-offset="1320">
+        <state line="64" column="8" selection-start="2826" selection-end="2826" vertical-scroll-proportion="0.7401575" vertical-offset="490" max-vertical-offset="2070">
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#19#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
