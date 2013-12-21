@@ -45,7 +45,6 @@ class SignupForm(Form):
     email = TextField("Email", [validators.Required("Please enter your email address."),
                                 validators.Email("Please a valid email address.")])
     phonenumber = TextField("Phone number", [validators.Required("Please enter a phone number."),
-                                             _number("Phone number must contain only numbers"),
                                              validators.Length(min=10, max=10, message=("Phone number must be 10 digits long"))])
     keycode = PasswordField("4 digit Key Code for signing into the phone menu", [validators.Required("Please enter a key code"),
                                          _number("Key code must be a number"),
@@ -100,7 +99,6 @@ class AddNumberForm(Form):
     firstname = TextField("First name", [validators.Required("Please enter your first name.")])
     lastname = TextField("Last name", [validators.Required("Please enter your last name.")])
     phonenumber = TextField("Phone number", [validators.Required("Please enter a phone number."),
-                                             _number("Phone number must contain only numbers"),
                                              validators.Length(min=10, max=10,
                                                                message=("Phone number must be 10 digits long"))])
     submit = SubmitField("Add number")
