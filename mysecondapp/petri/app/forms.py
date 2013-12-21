@@ -1,9 +1,13 @@
 __author__ = 'max'
-
+from flask import flash
 from flask.ext.wtf import Form
 from wtforms import TextField, BooleanField, TextAreaField, validators, PasswordField, SubmitField
 from wtforms.validators import Required, Length, ValidationError
-from models import User
+from models import User, Phonenumbers
+import string
+
+all = string.maketrans('', '')
+nodigs = all.translate(all, string.digits)
 
 class LoginForm(Form):
     email = TextField("Email", [validators.Required("Please enter your email address."),
@@ -105,6 +109,17 @@ class AddNumberForm(Form):
 
     def __init__(self, *args, **kwargs):
         Form.__init__(self, *args, **kwargs)
+
+    def validate(self):
+        if not Form.validate(self):
+            return False
+        cleanPhoneNumber = str(self.phonenumber.data).translate(all, nodigs)
+        number = Phonenumbers.query.filter_by(firstname=self.firstname.data).filter_by(lastname=self.lastname.data).filter_by(
+            number=self.phonenumber.data).first()
+        if number :
+            flash('Person has already been entered.')
+            return False
+        return True
 
 
 class ContactForm(Form):
