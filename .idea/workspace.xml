@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/templates/home.html" afterPath="$PROJECT_DIR$/mysecondapp/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f1184eda-f8c7-483e-8858-6ecd650fd272" name="garbage" comment="">
@@ -108,10 +108,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="52" column="19" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.22421524" vertical-offset="630" max-vertical-offset="1320">
+                <state line="52" column="19" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1320">
                   <folding>
                     <element signature="e#0#23#0" expanded="true" />
                   </folding>
@@ -148,10 +148,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="26" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1620">
+                <state line="7" column="48" selection-start="274" selection-end="274" vertical-scroll-proportion="0.1627907" vertical-offset="0" max-vertical-offset="1620">
                   <folding />
                 </state>
               </provider>
@@ -243,7 +243,6 @@
         <option value="$PROJECT_DIR$/mysecondapp/static/css/custom.css" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/about.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/index.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/base.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/login.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
@@ -251,6 +250,7 @@
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/models.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
+        <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
       </list>
     </option>
   </component>
@@ -925,7 +925,11 @@
       <created>1387587334628</created>
       <updated>1387587334628</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="annoying validation bugs. don't change class data types in constructors">
+      <created>1387588354603</created>
+      <updated>1387588354603</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -981,7 +985,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="db upgrade test 2" />
     <MESSAGE value="mysecondapp" />
     <MESSAGE value="say good bye!" />
     <MESSAGE value="git test" />
@@ -1006,7 +1009,8 @@
     <MESSAGE value="phonenumber validation changed" />
     <MESSAGE value="changed phonenumbers model to have titled fields" />
     <MESSAGE value="watch out for where your lower()s and title()s are" />
-    <option name="LAST_COMMIT_MESSAGE" value="watch out for where your lower()s and title()s are" />
+    <MESSAGE value="annoying validation bugs. don't change class data types in constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="annoying validation bugs. don't change class data types in constructors" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1046,13 +1050,6 @@
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="14" selection-start="392" selection-end="2513" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
@@ -1128,10 +1125,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="19" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.22421524" vertical-offset="630" max-vertical-offset="1320">
+        <state line="52" column="19" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1320">
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="48" selection-start="274" selection-end="274" vertical-scroll-proportion="0.1627907" vertical-offset="0" max-vertical-offset="1620">
+          <folding />
         </state>
       </provider>
     </entry>

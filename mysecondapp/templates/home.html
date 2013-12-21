@@ -14,11 +14,11 @@
 
 
 {% block content %}
-{% include 'flash.html' %}
+
     <div style="text-align: center">
     <h1>Hi, {{ g.user.firstname }}!</h1>
     </div>
-
+{% include 'flash.html' %}
     <div class="well">
         <h2>Your local number to dial is 954-302-7647</h2>
         <br>
