@@ -59,10 +59,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.8259362">
       <split-first>
         <leaf>
-          <file leaf-file-name="forms.py" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/forms.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="64" column="8" selection-start="2826" selection-end="2826" vertical-scroll-proportion="0.7401575" vertical-offset="490" max-vertical-offset="2070">
+                <state line="116" column="31" selection-start="4912" selection-end="4912" vertical-scroll-proportion="-30.147058" vertical-offset="715" max-vertical-offset="2070">
                   <folding>
                     <element signature="e#19#42#0" expanded="true" />
                   </folding>
@@ -82,8 +82,10 @@
           <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="40" selection-start="55" selection-end="60" vertical-scroll-proportion="-0.88235295" vertical-offset="0" max-vertical-offset="3525">
-                  <folding />
+                <state line="125" column="12" selection-start="4685" selection-end="4685" vertical-scroll-proportion="-8.8529415" vertical-offset="1574" max-vertical-offset="3525">
+                  <folding>
+                    <element signature="e#20#100#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -106,10 +108,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="74" column="47" selection-start="2609" selection-end="2609" vertical-scroll-proportion="0.0" vertical-offset="606" max-vertical-offset="1320">
+                <state line="52" column="19" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.22421524" vertical-offset="630" max-vertical-offset="1320">
                   <folding>
                     <element signature="e#0#23#0" expanded="true" />
                   </folding>
@@ -243,11 +245,11 @@
         <option value="$PROJECT_DIR$/mysecondapp/templates/index.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/base.html" />
-        <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/login.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/addnumber.html" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/signup.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/models.py" />
+        <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/forms.py" />
       </list>
     </option>
@@ -919,7 +921,11 @@
       <created>1387587097795</created>
       <updated>1387587097795</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="watch out for where your lower()s and title()s are">
+      <created>1387587334628</created>
+      <updated>1387587334628</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -975,7 +981,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="db migrate test" />
     <MESSAGE value="db upgrade test 2" />
     <MESSAGE value="mysecondapp" />
     <MESSAGE value="say good bye!" />
@@ -1000,7 +1005,8 @@
     <MESSAGE value="addnumber post to addnumber instead of contact" />
     <MESSAGE value="phonenumber validation changed" />
     <MESSAGE value="changed phonenumbers model to have titled fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed phonenumbers model to have titled fields" />
+    <MESSAGE value="watch out for where your lower()s and title()s are" />
+    <option name="LAST_COMMIT_MESSAGE" value="watch out for where your lower()s and title()s are" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1093,13 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="55" selection-end="60" vertical-scroll-proportion="-0.88235295" vertical-offset="0" max-vertical-offset="3525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
@@ -1109,20 +1108,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="47" selection-start="2609" selection-end="2609" vertical-scroll-proportion="0.0" vertical-offset="606" max-vertical-offset="1320">
+        <state line="125" column="12" selection-start="4685" selection-end="4685" vertical-scroll-proportion="-8.8529415" vertical-offset="1574" max-vertical-offset="3525">
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#20#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="8" selection-start="2826" selection-end="2826" vertical-scroll-proportion="0.7401575" vertical-offset="490" max-vertical-offset="2070">
+        <state line="116" column="31" selection-start="4912" selection-end="4912" vertical-scroll-proportion="-30.147058" vertical-offset="715" max-vertical-offset="2070">
           <folding>
             <element signature="e#19#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="19" selection-start="1905" selection-end="1905" vertical-scroll-proportion="0.22421524" vertical-offset="630" max-vertical-offset="1320">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
