@@ -69,6 +69,13 @@ class Phonenumbers(db.Model):
     lastname = db.Column(db.String(64))
     number = db.Column(db.String(10))
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+    # extra arguments must be passed in first, before *args and **kwargs
+    def __init__(self, *args, **kwargs):
+        db.Model.__init__(self, *args, **kwargs)
+        self.firstname = self.firstname.title()
+        self.lastname = self.lastname.title()
+        self.number = self.number.lower()
+
 
     def __repr__(self):
         return '<phonenumber %r firstname %r lastname %r>' % (self.number, self.firstname, self.lastname)
