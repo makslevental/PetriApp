@@ -82,7 +82,7 @@
           <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="52" column="32" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.23779528" vertical-offset="629" max-vertical-offset="3540">
+                <state line="70" column="45" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.6629921" vertical-offset="629" max-vertical-offset="3540">
                   <folding>
                     <element signature="e#20#100#0" expanded="true" />
                   </folding>
@@ -937,7 +937,11 @@
       <created>1387588445628</created>
       <updated>1387588445629</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="add greeting to phone menu">
+      <created>1387590337834</created>
+      <updated>1387590337834</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -993,7 +997,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="say good bye!" />
     <MESSAGE value="git test" />
     <MESSAGE value="git test 2" />
     <MESSAGE value="formatting on index&#10;" />
@@ -1018,7 +1021,8 @@
     <MESSAGE value="watch out for where your lower()s and title()s are" />
     <MESSAGE value="annoying validation bugs. don't change class data types in constructors" />
     <MESSAGE value="move flas in home to below title" />
-    <option name="LAST_COMMIT_MESSAGE" value="move flas in home to below title" />
+    <MESSAGE value="add greeting to phone menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="add greeting to phone menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1140,7 +1144,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="32" selection-start="1959" selection-end="1959" vertical-scroll-proportion="0.23779528" vertical-offset="629" max-vertical-offset="3540">
+        <state line="70" column="45" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.6629921" vertical-offset="629" max-vertical-offset="3540">
           <folding>
             <element signature="e#20#100#0" expanded="true" />
           </folding>
