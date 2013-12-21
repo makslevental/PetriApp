@@ -14,7 +14,13 @@ import string
 all = string.maketrans('', '')
 nodigs = all.translate(all, string.digits)
 
-
+#TODO-max editable in place on home
+#TODO-max searchable on phone menu
+#TODO-max read names then on choice go to phone number
+#TODO-max priority number on home
+#TODO-max connect to numbers
+#TODO-max paginate 10 at a time on phone menu
+#TODO-max reordable on home menu
 def flash_errors(form):
     """Flashes form errors"""
     for field, errors in form.errors.items():
