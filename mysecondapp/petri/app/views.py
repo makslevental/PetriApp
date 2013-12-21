@@ -68,7 +68,7 @@ def handle_telnumber(id):
     digit_pressed = request.values.get('Digits', None)
     user = User.query.get(id)
     if user and user.check_keycodehash(digit_pressed):
-        resp.say("Hello", user.firstname)
+        resp.say(str("Hello", user.firstname))
         phonenumbers = user.phonenumbers.all()
         for number in phonenumbers:
             resp.say(str(number.firstname))
