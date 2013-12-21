@@ -114,7 +114,7 @@ class AddNumberForm(Form):
         if not Form.validate(self):
             return False
         cleanPhoneNumber = str(self.phonenumber.data).translate(all, nodigs)
-        number = Phonenumbers.query.filter_by(firstname=self.firstname.data).filter_by(lastname=self.lastname.data).filter_by(
+        number = Phonenumbers.query.filter_by(firstname=self.firstname.data.title()).filter_by(lastname=self.lastname.data.title()).filter_by(
             number=self.phonenumber.data).first()
         if number :
             flash('Person has already been entered.')
