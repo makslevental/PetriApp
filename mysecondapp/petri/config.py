@@ -4,8 +4,11 @@ import os
 basedir = os.getcwd()
 # basedir = os.path.abspath(os.path.dirname(__file__))
 
-SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'app.db')
-SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
+# SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'app.db')
+# SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
+
+SQLALCHEMY_DATABASE_URI = 'sqlite:///' + basedir + '/app.db'
+SQLALCHEMY_MIGRATE_REPO = basedir + '/db_repository'
 
 CSRF_ENABLED = True
 SECRET_KEY = 'you-will-never-guess'
