@@ -18,7 +18,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/www$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1387389567359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/twilio" />
     <SUITE FILE_PATH="coverage/www$run.coverage" NAME="run Coverage Results" MODIFIED="1387459925904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp/flaskr" />
-    <SUITE FILE_PATH="coverage/www$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1387908497901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysecondapp/petri" />
+    <SUITE FILE_PATH="coverage/www$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1387910081967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysecondapp/petri" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -114,7 +114,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="63" selection-start="663" selection-end="663" vertical-scroll-proportion="0.5217391" vertical-offset="216" max-vertical-offset="882">
+            <state line="27" column="46" selection-start="646" selection-end="646" vertical-scroll-proportion="0.5217391" vertical-offset="216" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
@@ -831,7 +831,11 @@
       <created>1387908811728</created>
       <updated>1387908811728</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="base dirs">
+      <created>1387909847239</created>
+      <updated>1387909847239</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -856,7 +860,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="25" width="1370" height="745" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27857935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -868,7 +872,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29078802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -887,7 +891,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="arranging buttons" />
     <MESSAGE value="keycode label bug?" />
     <MESSAGE value="keycode label bug? take 2" />
     <MESSAGE value="banner edit" />
@@ -912,7 +915,8 @@
     <MESSAGE value="404 and 500 pages didn't have forms toolbars" />
     <MESSAGE value="numbers searchable and connection" />
     <MESSAGE value="sqlalchemy" />
-    <option name="LAST_COMMIT_MESSAGE" value="sqlalchemy" />
+    <MESSAGE value="base dirs" />
+    <option name="LAST_COMMIT_MESSAGE" value="base dirs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1034,7 +1038,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="63" selection-start="663" selection-end="663" vertical-scroll-proportion="0.5217391" vertical-offset="216" max-vertical-offset="882">
+        <state line="27" column="46" selection-start="646" selection-end="646" vertical-scroll-proportion="0.5217391" vertical-offset="216" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
