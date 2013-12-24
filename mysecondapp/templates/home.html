@@ -22,6 +22,8 @@
     <div class="well">
         <h2>Your local number to dial is 954-302-7647</h2>
         <br>
+        <h2>Your phone number is {{ g.user.phonenumber }}</h2>
+        <br>
         <h4>Your stored phone numbers:</h4>
         <br>
         <!-- append .items to phonenumber does weird things -->
@@ -34,15 +36,18 @@
                 <th>First name</th>
                 <th>Last name</th>
                 <th>Phone number</th>
+                <th>Short code</th>
             </tr>
             </thead>
             <tbody>
             {% for number in phonenumbers %}
+
             <tr>
                 <td>{{ number.id }}</td>
                 <td>{{ number.firstname }}</td>
                 <td>{{ number.lastname }}</td>
                 <td>{{ number.number }} </td>
+                <td>{{ number.short_id }} </td>
             </tr>
             {% endfor %}
             </tbody>

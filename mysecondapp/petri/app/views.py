@@ -15,10 +15,7 @@ all = string.maketrans('', '')
 nodigs = all.translate(all, string.digits)
 
 #TODO-max editable in place on home
-#TODO-max searchable on phone menu
-#TODO-max read names then on choice go to phone number
 #TODO-max priority number on home
-#TODO-max connect to numbers
 #TODO-max paginate 10 at a time on phone menu
 #TODO-max reordable on home menu
 def flash_errors(form):
@@ -66,6 +63,78 @@ def get_number(id=0):
                 r.say("Enter your 4 digit key code.")
             return str(resp)
 
+
+@app.route("/twilio_key/<int:id>", methods=['GET', 'POST'])
+def choose_sorting(id):
+    """choose between hearing all and hearing by first 3 letters"""
+    resp = twilio.twiml.Response()
+    user = User.query.get(id)
+    resp.say(str("Hello " + user.firstname))
+    with resp.gather(numDigits=1, action="/direct_twilio/"+str(id), method="POST") as r:
+        r.say("Press 1 to here all entries.")
+        r.say("Press 2 to search by first 3 letters of last name.")
+
+    return str(resp)
+
+@app.route("/direct_twilio/<int:id>", methods=['GET', 'POST'])
+def direct_twilio(id):
+    resp = twilio.twiml.Response()
+    if request.method == 'POST':
+        digit_pressed = request.values.get('Digits', None)
+        if digit_pressed == '1':
+            resp.redirect("/twilio_all/"+str(id), method='POST')
+        else:
+            resp.redirect("/twilio_search/"+str(id), method='GET')
+        return str(resp)
+
+@app.route("/twilio_all/<int:id>", methods=['GET', 'POST'])
+def twilio_all(id):
+    resp = twilio.twiml.Response()
+    user = User.query.get(id)
+    phonenumbers = user.phonenumbers.all()
+
+    for number in phonenumbers:
+        resp.say(str(number.firstname))
+        resp.say(str(number.lastname))
+        for n in number.number:
+            resp.say(str(n))
+    resp.say("Good bye!")
+    return str(resp)
+
+@app.route("/twilio_search/<int:id>", methods=['GET', 'POST'])
+def twilio_search(id):
+    resp = twilio.twiml.Response()
+    if request.method == 'GET':
+        with resp.gather(numDigits=3, action="/twilio_search/"+str(id), method="POST") as r:
+            r.say("Enter the first 3 letters of the person's last name.")
+        return str(resp)
+    elif request.method == 'POST':
+        digit_pressed = request.values.get('Digits', None)
+        user = User.query.get(id)
+        phonenumbers = user.phonenumbers.filter_by(short_id=digit_pressed).all()
+        j = 0
+        with resp.gather(numDigits=1, action="/dial_number/"+str(id)+str(digit_pressed), method="POST", finishOnKey='#') as r:
+            for number in phonenumbers:
+                j += 1
+                r.say("Press " + str(j) + " to be connected to")
+                r.say(str(number.firstname) + " " + str(number.lastname))
+                for n in number.number:
+                    r.say(str(n))
+        return str(resp)
+
+@app.route("/dial_number/<int:id>", methods=['GET', 'POST'])
+def dial_number(id):
+    """connect user."""
+    resp = twilio.twiml.Response()
+    digit_pressed = request.values.get('Digits', None)
+    user = User.query.get(int(str(id)[:-3]))
+    # number = user.phonenumbers.filter_by(short_id=str(id)[-3:]).all()[int(digit_pressed)-1]
+
+    number = user.phonenumbers.filter_by(short_id=str(id)[-3:]).all()[int(digit_pressed)-1].number
+    resp.dial("+1" + str(number))
+
+    return str(resp)
+
 @app.route("/twilio_key/<int:id>", methods=['GET', 'POST'])
 def handle_telnumber(id):
     """Handle key press from a user."""
@@ -74,14 +143,8 @@ def handle_telnumber(id):
     digit_pressed = request.values.get('Digits', None)
     user = User.query.get(id)
     if user and user.check_keycodehash(digit_pressed):
-        resp.say(str("Hello " + user.firstname))
-        phonenumbers = user.phonenumbers.all()
-        for number in phonenumbers:
-            resp.say(str(number.firstname))
-            resp.say(str(number.lastname))
-            for n in number.number:
-                resp.say(str(n))
-        resp.say("Good bye!")
+        user_id = user.id
+        resp.redirect('direct_twilio/'+str(user_id), method='POST')
         return str(resp)
     else:
         resp.say("Incorrect key code. Please try again.")
@@ -151,6 +214,7 @@ def home(page = 1):
     # phonenumbers = g.user.phonenumbers.paginate(page, NUMBERS_PER_PAGE, False)
     phonenumbers = g.user.phonenumbers.all()
     # return str(phonenumbers[1])
+
     return render_template('home.html',
                            info=info,
                            remember=session['remember_me'],
