@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4f3bc18-2fb7-457a-ab5a-4cc4c79dd6f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/config.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" afterPath="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="f1184eda-f8c7-483e-8858-6ecd650fd272" name="garbage" comment="" />
@@ -93,19 +93,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="38" selection-start="361" selection-end="361" vertical-scroll-proportion="0.5217391" vertical-offset="0" max-vertical-offset="558">
+            <state line="10" column="38" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="db_migrate.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysecondapp/petri/db_migrate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="18" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="972">
+            <state line="27" column="63" selection-start="663" selection-end="663" vertical-scroll-proportion="0.5217391" vertical-offset="216" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
@@ -149,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/contact.html" />
         <option value="$PROJECT_DIR$/mysecondapp/static/css/custom.css" />
         <option value="$PROJECT_DIR$/mysecondapp/templates/about.html" />
@@ -165,6 +173,7 @@
         <option value="$PROJECT_DIR$/mysecondapp/templates/home.html" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/app/views.py" />
         <option value="$PROJECT_DIR$/mysecondapp/petri/config.py" />
+        <option value="$PROJECT_DIR$/mysecondapp/petri/app/__init__.py" />
       </list>
     </option>
   </component>
@@ -818,7 +827,11 @@
       <created>1387908523091</created>
       <updated>1387908523091</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="sqlalchemy">
+      <created>1387908811728</created>
+      <updated>1387908811728</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -850,8 +863,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08281389" sideWeight="0.7081021" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1566618" sideWeight="0.6304" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.133383" sideWeight="0.6200658" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1566618" sideWeight="0.6304" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13323572" sideWeight="0.6304" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29078802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -874,7 +887,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="button label&#10;" />
     <MESSAGE value="arranging buttons" />
     <MESSAGE value="keycode label bug?" />
     <MESSAGE value="keycode label bug? take 2" />
@@ -899,7 +911,8 @@
     <MESSAGE value="404 and 500 pages didn't have forms passed" />
     <MESSAGE value="404 and 500 pages didn't have forms toolbars" />
     <MESSAGE value="numbers searchable and connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="numbers searchable and connection" />
+    <MESSAGE value="sqlalchemy" />
+    <option name="LAST_COMMIT_MESSAGE" value="sqlalchemy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -910,13 +923,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysecondapp/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="26" selection-start="3851" selection-end="3851" vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="2130">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="21" selection-start="429" selection-end="438" vertical-scroll-proportion="0.1349353" vertical-offset="179" max-vertical-offset="720">
@@ -955,13 +961,6 @@
     <entry file="file://$PROJECT_DIR$/mysecondapp/templates/500.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="14" selection-start="638" selection-end="638" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="18" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
@@ -1021,7 +1020,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="361" selection-end="361" vertical-scroll-proportion="0.5217391" vertical-offset="0" max-vertical-offset="558">
+        <state line="10" column="38" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/db_migrate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysecondapp/petri/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="63" selection-start="663" selection-end="663" vertical-scroll-proportion="0.5217391" vertical-offset="216" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
