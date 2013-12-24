@@ -96,7 +96,7 @@
       <file leaf-file-name="config.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysecondapp/petri/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="61" selection-end="61" vertical-scroll-proportion="0.15652174" vertical-offset="0" max-vertical-offset="504">
+            <state line="10" column="38" selection-start="361" selection-end="361" vertical-scroll-proportion="0.5217391" vertical-offset="0" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
@@ -814,7 +814,11 @@
       <created>1387907865622</created>
       <updated>1387907865622</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="numbers searchable and connection">
+      <created>1387908523091</created>
+      <updated>1387908523091</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -839,7 +843,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="25" width="1370" height="745" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27857935" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -851,7 +855,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29078802" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1017,7 +1021,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysecondapp/petri/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="61" selection-end="61" vertical-scroll-proportion="0.15652174" vertical-offset="0" max-vertical-offset="504">
+        <state line="10" column="38" selection-start="361" selection-end="361" vertical-scroll-proportion="0.5217391" vertical-offset="0" max-vertical-offset="558">
           <folding />
         </state>
       </provider>
