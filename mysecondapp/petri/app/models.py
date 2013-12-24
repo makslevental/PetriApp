@@ -68,6 +68,7 @@ class Phonenumbers(db.Model):
     firstname = db.Column(db.String(64))
     lastname = db.Column(db.String(64))
     number = db.Column(db.String(10))
+    short_id = db.Column(db.String(3))
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     # extra arguments must be passed in first, before *args and **kwargs
     def __init__(self, *args, **kwargs):
@@ -75,8 +76,27 @@ class Phonenumbers(db.Model):
         self.firstname = self.firstname.title()
         self.lastname = self.lastname.title()
         self.number = self.number.lower()
-
+        self.index_by_short_id(self.lastname)
 
     def __repr__(self):
         return '<phonenumber %r firstname %r lastname %r>' % (self.number, self.firstname, self.lastname)
 
+    def index_by_short_id(self, name):
+        monty = {
+                ('a','b','c'): '2',
+                ('d', 'e', 'f') : '3',
+                ('g', 'h', 'i') : '4',
+                ('j', 'k', 'l') : '5',
+                ('m', 'n', 'o') : '6',
+                ('p', 'q', 'r', 's') : '7',
+                ('t', 'u', 'v') : '8',
+                ('w', 'x', 'y', 'z') : '9',
+                }
+        working_monty = {}
+        for k, v in monty.items():
+            for key in k:
+                working_monty[key] = v
+        code = ""
+        for letter in name[0:3]:
+            code += working_monty[letter.lower()]
+        self.short_id = code
