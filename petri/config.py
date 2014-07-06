@@ -1,7 +1,7 @@
 __author__ = 'max'
 #i hate you
 import os
-basedir = '/var/www/mysecondapp/petri'
+basedir = '/opt/bitnami/apps/PetriApp/petri'
 # basedir = os.path.abspath(os.path.dirname(__file__))
 
 # SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'app.db')

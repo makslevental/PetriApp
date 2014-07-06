@@ -3,7 +3,7 @@ __author__ = 'max'
 
 
 import sys
-sys.path.insert(0,'~/apps/PetriApp/petri')
+sys.path.insert(0,'/opt/bitnami/apps/PetriApp/petri')
 from app import app
 application = app
 
