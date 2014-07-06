@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block leftnavbar %}
+<li class="active" id="brand"><a href="#">Petri</a></li>
+<li><a href="{{ url_for('about') }}">About</a></li>
+<li><a href="{{ url_for('contact') }}">Contact</a></li>
+{% endblock %}
+{% block rightnavbar %}
+<li><a href="{{ url_for('home') }}">Home</a></li>
+<li><a href="{{ url_for('addnumber') }}">Add number</a></li>
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1>Don't be lost</h1>
+    <h2>even without your phone</h2>
+
+    <img src="{{ url_for('static', filename='img/logo.gif') }}" class="img-responsive" alt="Responsive image">
+    <p class="lead">Sign up to get a free phonebook you can reach from anywhere</p>
+
+    <p>
+
+    <form class="form-horizontal" action="{{ url_for('signup') }}">
+        <div class="control-group">
+            <div class="controls">
+                <input class="btn btn-lg btn-success" type="submit" value="Sign up!">
+            </div>
+        </div>
+    </form>
+    </p>
+</div>
+
+
+{% endblock %}

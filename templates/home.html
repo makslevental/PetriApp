@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- extend base layout -->
+<!-- git test -->
+{% extends "base.html" %}
+{% block leftnavbar %}
+<li id="brand"><a href="{{ url_for('index') }}">Petri</a></li>
+<li><a href="{{ url_for('about') }}">About</a></li>
+<li><a href="{{ url_for('contact') }}">Contact</a></li>
+{% endblock %}
+{% block rightnavbar %}
+<li class="active"><a href="#">Home</a></li>
+<li><a href="{{ url_for('addnumber') }}">Add number</a></li>
+{% endblock %}
+
+
+{% block content %}
+
+    <div style="text-align: center">
+    <h1>Hi, {{ g.user.firstname }}!</h1>
+    </div>
+{% include 'flash.html' %}
+    <div class="well">
+        <h2>Your local number to dial is 954-302-7647</h2>
+        <br>
+        <h2>Your phone number is {{ g.user.phonenumber }}</h2>
+        <br>
+        <h4>Your stored phone numbers:</h4>
+        <br>
+        <!-- append .items to phonenumber does weird things -->
+
+
+        <table class="table table-condensed">
+            <thead>
+            <tr>
+                <th>Priority</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Phone number</th>
+                <th>Short code</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for number in phonenumbers %}
+
+            <tr>
+                <td>{{ number.id }}</td>
+                <td>{{ number.firstname }}</td>
+                <td>{{ number.lastname }}</td>
+                <td>{{ number.number }} </td>
+                <td>{{ number.short_id }} </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+
+        <!--<p>-->
+
+
+
+        <!--<div style="width: 60%">-->
+            <!--<div id="msg" class="alert hide"></div>-->
+            <!--<table id="user" class="table table-bordered table-striped">-->
+                <!--<tbody>-->
+                <!--<tr>-->
+                    <!--<td width="20%">First name</td>-->
+                    <!--<td>Last Name</td>-->
+                    <!--<td>Phone Number</td>-->
+                <!--</tr>-->
+                <!--{% for number in phonenumbers %}-->
+                <!--<tr>-->
+
+
+                    <!--<td><a href="#" class="myeditable" id="required_firstname" data-type="text" data-name="firstname"-->
+                           <!--data-original-title="Enter First name"></a></td>-->
+                    <!--<td><a href="#" class="myeditable" id="required_lastname" data-type="text" data-name="lastname"-->
+                           <!--data-original-title="Enter Last name">label goes here!!!</a></td>-->
+                    <!--<td><a href="#" class="myeditable" id="required_phonenumber" data-type="text"-->
+                           <!--data-name="phonenumber"-->
+                           <!--data-original-title="Enter Phone number"></a></td>-->
+                    <!--&lt;!&ndash;<td>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<div>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<button id="save-btn" class="btn btn-primary">Save</button>&ndash;&gt;-->
+                        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</td>&ndash;&gt;-->
+                <!--</tr>-->
+                <!--{% endfor %}-->
+                <!--</tbody>-->
+            <!--</table>-->
+        <!--</div>-->
+
+
+
+
+
+
+        <!--</p>-->
+
+    </div>
+{% endblock %}

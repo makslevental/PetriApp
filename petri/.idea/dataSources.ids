@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="b7b03966-63c2-44c4-b9f0-329b558bea48">
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <synchronize>true</synchronize>
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/app.db</jdbc-url>
+    <schema-pattern>*</schema-pattern>
+    <default-dialect>SQLite</default-dialect>
+    <libraries>
+      <library>
+        <url>jar://$PROJECT_DIR$/../extra/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar!/</url>
+      </library>
+      <library>
+        <url>file://$PROJECT_DIR$/../extra/xerial-sqlite-license.txt</url>
+      </library>
+    </libraries>
+    <schema name="" catalog=""/>
+    <table name="migrate_version" schema="" catalog="" type="TABLE">
+      <column name="repository_id" sqlType="VARCHAR(250)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
+      <column name="repository_path" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="version" sqlType="INTEGER" length="2000000000" precision="10" nullable="true" jdbcType="4"/>
+      <primary-key columns="repository_id"/>
+    </table>
+    <table name="post" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="body" sqlType="VARCHAR(140)" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="timestamp" sqlType="DATETIME" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="user_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="true" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="user" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="nickname" sqlType="VARCHAR(64)" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR(120)" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="role" sqlType="SMALLINT" length="2000000000" precision="10" nullable="true" jdbcType="4"/>
+      <column name="about_me" sqlType="VARCHAR(140)" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="last_seen" sqlType="DATETIME" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <index name="ix_user_email" unique="true" columns="email"/>
+      <index name="ix_user_nickname" unique="true" columns="nickname"/>
+    </table>
+  </data-source>
+  <data-source source="LOCAL" name="Data Source [2]" product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="c1676195-4d0a-4d0a-b3b5-8bed877bd8a6">
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <synchronize>true</synchronize>
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/test.db</jdbc-url>
+    <libraries>
+      <library>
+        <url>jar://$PROJECT_DIR$/../extra/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar!/</url>
+      </library>
+      <library>
+        <url>file://$PROJECT_DIR$/../extra/xerial-sqlite-license.txt</url>
+      </library>
+    </libraries>
+    <schema name="" catalog=""/>
+  </data-source>
+</component>
