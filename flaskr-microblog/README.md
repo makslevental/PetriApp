@@ -1,1 +1,0 @@
-First flaskr app, almost verbatim copy of http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
