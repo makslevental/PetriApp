@@ -17,7 +17,7 @@ MAIL_SERVER = "smtp.gmail.com"
 MAIL_PORT = 465
 MAIL_USE_SSL = True
 MAIL_USERNAME = 'petriapp@gmail.com'
-MAIL_PASSWORD = 'Hig@wav3'
+MAIL_PASSWORD = ''
 
 ADMINS = ['maksim.levental@gmail.com']
 

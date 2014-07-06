@@ -3,7 +3,7 @@ __author__ = 'max'
 
 
 import sys
-sys.path.insert(0,'/var/www/mysecondapp/petri')
+sys.path.insert(0,'~/apps/PetriApp/petri')
 from app import app
 application = app
 
